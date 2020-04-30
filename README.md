@@ -1,5 +1,6 @@
 # srl-tools
  CSCI 5448 Final Project
+ Adam Pollins
 
 # How to run
 One use case is demonstrated by the command:
