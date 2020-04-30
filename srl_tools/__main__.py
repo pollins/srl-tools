@@ -45,20 +45,20 @@ if args.fscore:
 
     gold_dir, predicted_dir = args.fscore
 
-    gold_corpus = BratCorpus("Gold Corpus")
+    gold_corpus = BratCorpus("Gold Corpus") # initialize the corpora
     predicted_corpus = BratCorpus("Predicted Corpus")
 
-    predicted_corpus.perform_read(predicted_dir)
+    predicted_corpus.perform_read(predicted_dir) # read them in
     gold_corpus.perform_read(gold_dir)
 
-    predicted_set = to_set(predicted_corpus)
+    predicted_set = to_set(predicted_corpus) # convert to set
     gold_set = to_set(gold_corpus)
 
-    intersection = predicted_set & gold_set
+    intersection = predicted_set & gold_set # initialize variables for formula
     a = len(intersection)
     b = len(predicted_set - intersection)
     c = len(gold_set - intersection)
 
-    print(f"F1 score: {(2 * a) / ((2 * a) + b + c)}")
+    print(f"F1 score: {(2 * a) / ((2 * a) + b + c)}") # give score
 
 total_count = 0

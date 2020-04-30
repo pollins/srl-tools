@@ -97,34 +97,34 @@ class BratCorpus(Corpus):
             entries = {}
             roleset_ids = {}
             relations = {}
-            file_corpus = BratCorpus(filename)
+            file_corpus = BratCorpus(filename) # initialize the sub-corpus to our specific format
             file = open(entry.path, encoding='utf-8')
             
             for line in file:
                 line = line.split()
                 key = line[0]
-                if key.startswith('T'):
+                if key.startswith('T'): # this indicates a label
                     entries[key] = Token(line[2], line[1])
-                elif key.startswith('#'):
-                    t_index = line[2]
+                elif key.startswith('#'): # this indicates the roleset, i.e., the identity of a verb
+                    t_index = line[2] # it is only present on verbs
                     roleset_id = line[3]
                     roleset_ids[t_index] = roleset_id
-                elif key.startswith('R'):
-                    source_t_index = line[2].split(':')[-1]
+                elif key.startswith('R'): # this indicates the relation (arrow) from a predicate to a verb
+                    source_t_index = line[2].split(':')[-1] 
                     target_t_index = line[3].split(':')[-1]
                     relations[source_t_index] = target_t_index
             
-            for key in roleset_ids:
+            for key in roleset_ids: # populate dictionary of rolesets
                 entries[key].set_roleset_id(roleset_ids[key])
-            for key in relations:
+            for key in relations: # populate dictionary of relations
                 # relation = entries[relations[key]] note this line is for if we
                 # want to change to relations, for now we just want relation id
                 relation = relations[key]
                 entries[key].set_relation(relation)
 
-            for entry in entries.values():
+            for entry in entries.values(): # finally, populate the sub-corpus with the entries
                 file_corpus.add(entry)
-            self.add(file_corpus)
+            self.add(file_corpus) # then add that subcorpus to the main corpus
 
 
 
