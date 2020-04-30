@@ -1,0 +1,1422 @@
+F1 score: 0.08711656441717791
+Text: Corpus
+----------------
+Text: NW_APW_ENG_0072_20050321-1.ann
+----------------
+11	Predicate	гибнуть.01
+208	Predicate	унести.02
+295	Predicate	остаться.02
+324	Predicate	_
+549	Predicate	гибнуть.01
+579	Predicate	получить.LV
+901	Predicate	унести.02
+961	Predicate	получить.LV
+1188	Predicate	терять.01
+1343	Predicate	терять.01
+62	Predicate	_
+155	Predicate	_
+789	Predicate	_
+831	Predicate	_
+861	Predicate	_
+985	Predicate	_
+1077	Predicate	_
+1234	Predicate	_
+1250	Predicate	_
+1266	Predicate	_
+1301	Predicate	_
+33	ARGM-CAU	_
+--- Relation ---
+T1
+--- ---
+200	ARG0	_
+--- Relation ---
+T2
+--- ---
+215	ARG1	_
+--- Relation ---
+T2
+--- ---
+308	ARG2	_
+--- Relation ---
+T4
+--- ---
+907	ARG1	_
+--- Relation ---
+T8
+--- ---
+933	ARG2	_
+--- Relation ---
+T8
+--- ---
+1181	ARG0	_
+--- Relation ---
+T10
+--- ---
+1197	ARG1	_
+--- Relation ---
+T10
+--- ---
+1356	ARG1	_
+--- Relation ---
+T11
+--- ---
+52	ARGM-LOC	_
+--- Relation ---
+T1
+--- ---
+94	ARGM-LOC	_
+179	ARGM-LOC	_
+--- Relation ---
+T13
+--- ---
+282	ARG1	_
+--- Relation ---
+T4
+--- ---
+335	ARGM-TMP	_
+--- Relation ---
+T5
+--- ---
+345	ARGM-TMP	_
+--- Relation ---
+T5
+--- ---
+424	ARGM-LOC	_
+514	ARG1	_
+--- Relation ---
+T6
+--- ---
+721	Predicate	_
+1139	ARGM-LOC	_
+--- Relation ---
+T10
+--- ---
+369	ARGM-TMP	_
+--- Relation ---
+T5
+--- ---
+0	ARG0	_
+--- Relation ---
+T1
+--- ---
+240	ARG2	_
+--- Relation ---
+T2
+--- ---
+1032	Predicate	пострадать.01
+1046	ARG0	_
+--- Relation ---
+T3
+--- ---
+1206	ARG1	_
+--- Relation ---
+T10
+--- ---
+1213	ARG1	_
+--- Relation ---
+T10
+--- ---
+1220	ARG1	_
+--- Relation ---
+T10
+--- ---
+1335	ARG0	_
+--- Relation ---
+T11
+--- ---
+Text: NW_APW_ENG_0202_20050119-1.ann
+----------------
+35	Predicate	пострадать.01
+271	Predicate	гибнуть.01
+331	Predicate	мочь.03
+497	Predicate	гибнуть.01
+619	Predicate	унести.02
+717	Predicate	остаться.02
+1549	Predicate	мочь.03
+1831	Predicate	слышать.02
+15	Predicate	_
+84	Predicate	_
+141	Predicate	_
+213	Predicate	_
+337	Predicate	оказаться.01
+464	Predicate	достать.01
+772	Predicate	_
+827	Predicate	_
+934	Predicate	_
+1071	Predicate	_
+1148	Predicate	_
+1411	Predicate	_
+1466	Predicate	_
+1501	Predicate	_
+1555	Predicate	_
+1639	Predicate	_
+1662	Predicate	пытаться.01
+1768	Predicate	_
+1923	Predicate	_
+1946	Predicate	_
+2073	Predicate	_
+2110	Predicate	относить.04
+613	ARG0	_
+--- Relation ---
+T5
+--- ---
+626	ARG1	_
+--- Relation ---
+T5
+--- ---
+728	ARG2	_
+--- Relation ---
+T6
+--- ---
+1781	ARG0	_
+--- Relation ---
+T8
+--- ---
+1844	ARG1	_
+--- Relation ---
+T8
+--- ---
+238	ARGM-LOC	_
+--- Relation ---
+T2
+--- ---
+351	ARG1	_
+--- Relation ---
+T13
+--- ---
+390	Predicate	прибыть.01
+399	ARGM-TMP	_
+--- Relation ---
+T47
+--- ---
+323	ARGM-CAU	_
+--- Relation ---
+T41
+--- ---
+508	ARGM-LOC	_
+--- Relation ---
+T4
+--- ---
+654	ARGM-LOC	_
+--- Relation ---
+T5
+--- ---
+675	ARGM-LOC	_
+--- Relation ---
+T5
+--- ---
+1208	Predicate	являться.01
+1240	Predicate	_
+1610	ARG0	_
+--- Relation ---
+T59
+--- ---
+1670	Predicate	_
+1903	ARGM-LOC	_
+--- Relation ---
+T62
+--- ---
+2123	ARG1	_
+--- Relation ---
+T30
+--- ---
+2141	ARG2	_
+--- Relation ---
+T30
+--- ---
+62	ARGM-CAU	_
+--- Relation ---
+T1
+--- ---
+69	ARG0	_
+--- Relation ---
+T1
+--- ---
+252	ARG0	_
+--- Relation ---
+T2
+--- ---
+292	ARGM-CAU	_
+--- Relation ---
+T2
+--- ---
+307	Predicate	пострадать.01
+301	ARG0	_
+--- Relation ---
+T13
+--- ---
+377	ARG1	_
+--- Relation ---
+T47
+--- ---
+456	ARG0	_
+--- Relation ---
+T14
+--- ---
+473	ARG1	_
+--- Relation ---
+T14
+--- ---
+637	ARG2	_
+--- Relation ---
+T5
+--- ---
+708	ARG2	_
+--- Relation ---
+T6
+--- ---
+979	Predicate	пострадать.01
+1000	ARG0	_
+--- Relation ---
+T36
+--- ---
+1186	ARG2	_
+--- Relation ---
+T72
+--- ---
+1217	ARG1	_
+--- Relation ---
+T72
+--- ---
+1587	Predicate	пострадать.01
+1603	ARGM-CAU	_
+--- Relation ---
+T59
+--- ---
+1670	ARG1	_
+--- Relation ---
+T25
+--- ---
+1844	Predicate	пострадать.01
+1841	ARG0	_
+--- Relation ---
+T62
+--- ---
+1859	ARGM-CAU	_
+--- Relation ---
+T62
+--- ---
+2087	ARGM-TMP	_
+--- Relation ---
+T66
+--- ---
+2095	Predicate	быть.01
+2103	ARG2	_
+--- Relation ---
+T66
+--- ---
+Text: NW_APW_ENG_0079_20070813-1.ann
+----------------
+6	Predicate	возобновиться.01
+42	Predicate	пострадать.01
+450	Predicate	унести.02
+529	Predicate	гибнуть.01
+538	Predicate	сообщаться.01
+621	Predicate	мочь.03
+960	Predicate	пострадать.01
+1312	Predicate	прекратиться.01
+1611	Predicate	мочь.03
+1693	Predicate	пострадать.01
+147	Predicate	_
+369	Predicate	_
+398	Predicate	_
+577	Predicate	выступать.03
+627	Predicate	_
+694	Predicate	_
+810	Predicate	_
+887	Predicate	_
+898	Predicate	_
+995	Predicate	вызвать.02
+1057	Predicate	_
+1081	Predicate	_
+1126	Predicate	_
+1298	Predicate	_
+1356	Predicate	_
+1562	Predicate	_
+1617	Predicate	_
+1671	Predicate	_
+1738	Predicate	_
+0	ARG0	_
+--- Relation ---
+T1
+--- ---
+18	ARG1	_
+--- Relation ---
+T1
+--- ---
+456	ARG1	_
+--- Relation ---
+T3
+--- ---
+973	ARG0	_
+--- Relation ---
+T7
+--- ---
+1322	ARG1	_
+--- Relation ---
+T8
+--- ---
+1703	ARG0	_
+--- Relation ---
+T10
+--- ---
+473	ARG2	_
+--- Relation ---
+T3
+--- ---
+551	ARGM-TMP	_
+--- Relation ---
+T5
+--- ---
+565	ARGM-LOC	_
+--- Relation ---
+T5
+--- ---
+529	ARG1	_
+--- Relation ---
+T5
+--- ---
+951	ARGM-EXT	_
+--- Relation ---
+T7
+--- ---
+1151	Predicate	_
+1364	Predicate	_
+1413	Predicate	_
+1426	ARG0	_
+--- Relation ---
+T63
+--- ---
+1724	ARGM-LOC	_
+--- Relation ---
+T10
+--- ---
+1769	ARGM-TMP	_
+--- Relation ---
+T30
+--- ---
+78	ARGM-CAU	_
+--- Relation ---
+T2
+--- ---
+334	Predicate	_
+483	Predicate	остаться.02
+495	ARG2	_
+--- Relation ---
+T14
+--- ---
+501	ARG2	_
+--- Relation ---
+T14
+--- ---
+526	ARG0	_
+--- Relation ---
+T4
+--- ---
+589	ARG1	_
+--- Relation ---
+T15
+--- ---
+982	ARG1	_
+--- Relation ---
+T21
+--- ---
+1013	ARG0	_
+--- Relation ---
+T21
+--- ---
+1356	ARGM-CAU	_
+--- Relation ---
+T8
+--- ---
+1689	ARGM-ADV	_
+--- Relation ---
+T10
+--- ---
+1671	ARG1	_
+--- Relation ---
+T30
+--- ---
+1745	ARG0	_
+--- Relation ---
+T30
+--- ---
+1748	ARG2	_
+--- Relation ---
+T30
+--- ---
+Text: NW_AFP_ENG_0012_20030419-1.ann
+----------------
+11	Predicate	гибнуть.01
+3	ARG1	_
+--- Relation ---
+T1
+--- ---
+81	Predicate	сообщаться.01
+101	ARG0	_
+--- Relation ---
+T5
+--- ---
+189	Predicate	гибнуть.01
+296	Predicate	объединить.01
+398	Predicate	гибнуть.01
+444	Predicate	переполнить.01
+513	Predicate	обнаружить.01
+551	Predicate	сказать.01
+644	Predicate	унести.02
+756	Predicate	утверждать.01
+857	Predicate	найти.01
+865	Predicate	разложить.03
+928	Predicate	числиться.01
+1062	Predicate	сообщаться.01
+937	Predicate	пропасть.01
+1085	Predicate	обнаружить.01
+1152	Predicate	прекратиться.01
+1167	Predicate	_
+1240	Predicate	обрушиться.02
+1287	Predicate	закончить.01
+1305	Predicate	сказать.01
+143	ARGM-TMP	_
+--- Relation ---
+T5
+--- ---
+352	Predicate	унести.01
+206	ARG1	_
+--- Relation ---
+T7
+--- ---
+318	ARG1	_
+--- Relation ---
+T8
+--- ---
+329	ARG1	_
+--- Relation ---
+T30
+--- ---
+366	ARG0	_
+--- Relation ---
+T30
+--- ---
+376	ARG1	_
+--- Relation ---
+T10
+--- ---
+431	ARG1	_
+--- Relation ---
+T11
+--- ---
+470	ARGM-LOC	_
+--- Relation ---
+T11
+--- ---
+510	ARG0	_
+--- Relation ---
+T12
+--- ---
+538	ARG1	_
+--- Relation ---
+T12
+--- ---
+637	ARG0	_
+--- Relation ---
+T14
+--- ---
+651	ARG1	_
+--- Relation ---
+T14
+--- ---
+662	ARG2	_
+--- Relation ---
+T14
+--- ---
+686	ARG2	_
+--- Relation ---
+T14
+--- ---
+740	ARG0	_
+--- Relation ---
+T15
+--- ---
+773	ARG1	_
+--- Relation ---
+T16
+--- ---
+881	ARGM-TMP	_
+--- Relation ---
+T16
+--- ---
+1145	ARG1	_
+--- Relation ---
+T22
+--- ---
+1205	Predicate	возобновить.01
+1186	ARG1	_
+--- Relation ---
+T51
+--- ---
+1232	ARG0	_
+--- Relation ---
+T25
+--- ---
+1256	ARG1	_
+--- Relation ---
+T25
+--- ---
+1232	ARG1	_
+--- Relation ---
+T26
+--- ---
+937	ARG2	_
+--- Relation ---
+T18
+--- ---
+189	ARG1	_
+--- Relation ---
+T5
+--- ---
+183	ARGM-LOC	_
+--- Relation ---
+T7
+--- ---
+1054	ARG0	_
+--- Relation ---
+T19
+--- ---
+1076	ARG1	_
+--- Relation ---
+T19
+--- ---
+1197	ARGM-LOC	_
+--- Relation ---
+T51
+--- ---
+456	ARG0	_
+--- Relation ---
+T11
+--- ---
+480	ARGM-LOC	_
+--- Relation ---
+T11
+--- ---
+952	ARGM-PRD	_
+--- Relation ---
+T20
+--- ---
+1048	ARGM-TMP	_
+--- Relation ---
+T19
+--- ---
+964	ARGM-TMP	_
+--- Relation ---
+T18
+--- ---
+1137	ARGM-TMP	_
+--- Relation ---
+T22
+--- ---
+1262	ARGM-TMP	_
+--- Relation ---
+T25
+--- ---
+526	ARGM-LOC	_
+--- Relation ---
+T12
+--- ---
+1105	ARGM-TMP	_
+--- Relation ---
+T21
+--- ---
+1020	ARGM-LOC	_
+--- Relation ---
+T68
+--- ---
+1006	ARGM-TMP	_
+--- Relation ---
+T68
+--- ---
+43	ARGM-CAU	_
+--- Relation ---
+T1
+--- ---
+52	ARGM-LOC	_
+--- Relation ---
+T1
+--- ---
+174	ARGM-CAU	_
+--- Relation ---
+T7
+--- ---
+444	ARGM-TMP	_
+--- Relation ---
+T10
+--- ---
+513	ARG1	_
+--- Relation ---
+T13
+--- ---
+558	ARG0	_
+--- Relation ---
+T13
+--- ---
+857	ARG1	_
+--- Relation ---
+T15
+--- ---
+865	ARGM-PRD	_
+--- Relation ---
+T16
+--- ---
+924	ARGM-TMP	_
+--- Relation ---
+T18
+--- ---
+909	ARG1	_
+--- Relation ---
+T18
+--- ---
+975	ARG1	_
+--- Relation ---
+T68
+--- ---
+990	Predicate	смываться.02
+996	ARG0	_
+--- Relation ---
+T68
+--- ---
+1076	ARG1	_
+--- Relation ---
+T21
+--- ---
+1276	ARGM-TMP	_
+--- Relation ---
+T26
+--- ---
+1287	ARG1	_
+--- Relation ---
+T27
+--- ---
+1312	ARG0	_
+--- Relation ---
+T27
+--- ---
+Text: NW_XIN_ENG_0210_20080517-1.ann
+----------------
+350	Predicate	пострадать.01
+524	Predicate	получить.01
+2103	Predicate	числиться.01
+2263	Predicate	пострадать.01
+24	Predicate	отправить.01
+191	Predicate	прибыть.01
+258	Predicate	_
+602	Predicate	_
+691	Predicate	привезти.01
+890	Predicate	_
+1090	Predicate	представлять.04
+1438	Predicate	сказать.01
+1558	Predicate	добавить.02
+1659	Predicate	_
+1828	Predicate	_
+1865	Predicate	_
+2001	Predicate	_
+341	ARGM-CAU	_
+--- Relation ---
+T1
+--- ---
+371	ARG0	_
+--- Relation ---
+T1
+--- ---
+535	ARG1	_
+--- Relation ---
+T2
+--- ---
+549	ARG2	_
+--- Relation ---
+T2
+--- ---
+490	ARG0	_
+--- Relation ---
+T2
+--- ---
+2129	ARG1	_
+--- Relation ---
+T3
+--- ---
+2274	ARG0	_
+--- Relation ---
+T4
+--- ---
+212	ARG4	_
+--- Relation ---
+T6
+--- ---
+237	ARGM-TMP	_
+--- Relation ---
+T6
+--- ---
+386	ARGM-TMP	_
+--- Relation ---
+T1
+--- ---
+662	Predicate	случиться.01
+563	ARGM-LOC	_
+1190	ARG0	_
+--- Relation ---
+T43
+--- ---
+1200	ARG0	_
+--- Relation ---
+T43
+--- ---
+1367	Predicate	состояться.01
+1380	ARG2	_
+--- Relation ---
+T72
+--- ---
+1389	ARGM-TMP	_
+--- Relation ---
+T72
+--- ---
+1493	Predicate	_
+2236	ARGM-LOC	_
+--- Relation ---
+T4
+--- ---
+2250	ARGM-EXT	_
+--- Relation ---
+T4
+--- ---
+2337	ARG0	_
+--- Relation ---
+T4
+--- ---
+18	ARG1	_
+--- Relation ---
+T5
+--- ---
+38	ARG2	_
+163	ARG1	_
+--- Relation ---
+T6
+--- ---
+258	ARGM-PRP	_
+--- Relation ---
+T6
+--- ---
+446	Predicate	включать.01
+457	ARG1	_
+--- Relation ---
+T30
+--- ---
+469	ARG1	_
+--- Relation ---
+T30
+--- ---
+649	ARGM-TMP	_
+--- Relation ---
+T2
+--- ---
+685	ARG0	_
+--- Relation ---
+T9
+--- ---
+702	ARGM-MNR	_
+--- Relation ---
+T9
+--- ---
+708	ARG1	_
+--- Relation ---
+T9
+--- ---
+740	ARG1	_
+--- Relation ---
+T9
+--- ---
+1039	ARG0	_
+--- Relation ---
+T11
+--- ---
+1112	ARG1	_
+--- Relation ---
+T11
+--- ---
+1167	Predicate	пострадать.01
+1183	ARGM-CAU	_
+--- Relation ---
+T43
+--- ---
+1359	ARG1	_
+--- Relation ---
+T72
+--- ---
+1397	ARG0	_
+--- Relation ---
+T12
+--- ---
+1301	ARGM-TMP	_
+--- Relation ---
+T12
+--- ---
+1493	ARG1	_
+--- Relation ---
+T12
+--- ---
+1568	ARG0	_
+--- Relation ---
+T13
+--- ---
+1523	ARG1	_
+--- Relation ---
+T13
+--- ---
+2064	ARG2	_
+--- Relation ---
+T3
+--- ---
+2286	ARG0	_
+--- Relation ---
+T4
+--- ---
+2297	ARG0	_
+--- Relation ---
+T4
+--- ---
+2307	ARG0	_
+--- Relation ---
+T4
+--- ---
+2317	ARG0	_
+--- Relation ---
+T4
+--- ---
+Text: NW_AFP_ENG_0012_20030419-2.ann
+----------------
+52	Predicate	открыть.01
+72	ARG1	_
+--- Relation ---
+T1
+--- ---
+2	ARGM-TMP	_
+--- Relation ---
+T1
+--- ---
+27	ARGM-TMP	_
+--- Relation ---
+T1
+--- ---
+Text: NW_XIN_ENG_0210_20080517-2.ann
+----------------
+90	Predicate	гибнуть.01
+133	Predicate	числиться.01
+142	Predicate	пропасть.01
+180	Predicate	получить.LV
+22	Predicate	_
+105	ARG0	_
+--- Relation ---
+T1
+--- ---
+115	ARG1	_
+--- Relation ---
+T2
+--- ---
+142	ARG2	_
+--- Relation ---
+T2
+--- ---
+122	ARGM-EXT	_
+157	ARGM-PRD	_
+--- Relation ---
+T3
+--- ---
+81	ARGM-CAU	_
+--- Relation ---
+T1
+--- ---
+Text: NW_APW_ENG_0072_20050321-2.ann
+----------------
+238	Predicate	говорить.01
+284	Predicate	сообщаться.01
+409	Predicate	пострадать.01
+515	Predicate	гибнуть.01
+659	Predicate	гибнуть.01
+746	Predicate	гибнуть.01
+897	Predicate	слышать.01
+4	Predicate	_
+39	Predicate	_
+118	Predicate	_
+156	Predicate	_
+274	Predicate	_
+644	Predicate	_
+687	Predicate	_
+825	Predicate	_
+231	ARG0	_
+--- Relation ---
+T1
+--- ---
+293	ARG0	_
+--- Relation ---
+T2
+--- ---
+399	Predicate	_
+535	ARG0	_
+--- Relation ---
+T4
+--- ---
+549	Predicate	_
+673	ARG0	_
+--- Relation ---
+T5
+--- ---
+763	ARG0	_
+--- Relation ---
+T6
+--- ---
+864	ARG1	_
+--- Relation ---
+T19
+--- ---
+913	ARG1	_
+--- Relation ---
+T7
+--- ---
+870	ARG2	_
+--- Relation ---
+T19
+--- ---
+23	Predicate	просить.01
+66	Predicate	_
+184	Predicate	_
+399	ARG1	_
+--- Relation ---
+T2
+--- ---
+507	ARGM-LOC	_
+--- Relation ---
+T4
+--- ---
+31	ARG2	_
+--- Relation ---
+T33
+--- ---
+274	ARG1	_
+--- Relation ---
+T1
+--- ---
+515	ARG1	_
+--- Relation ---
+T22
+--- ---
+556	ARG0	_
+--- Relation ---
+T22
+--- ---
+738	ARGM-LOC	_
+--- Relation ---
+T6
+--- ---
+866	Predicate	быть.01
+Text: NW_APW_ENG_0072_20050321-3.ann
+----------------
+81	Predicate	найти.01
+129	Predicate	говорить.01
+535	Predicate	сообщаться.01
+752	Predicate	иметь.01
+871	Predicate	жить.01
+989	Predicate	унести.02
+1032	Predicate	получить.LV
+2	Predicate	бросить.01
+32	Predicate	_
+155	Predicate	_
+167	Predicate	_
+228	Predicate	_
+255	Predicate	_
+288	Predicate	_
+397	Predicate	_
+422	Predicate	_
+442	Predicate	_
+470	Predicate	гибнуть.01
+497	Predicate	_
+623	Predicate	_
+79	ARG0	_
+--- Relation ---
+T1
+--- ---
+87	ARG1	_
+--- Relation ---
+T1
+--- ---
+137	ARG0	_
+--- Relation ---
+T2
+--- ---
+467	ARG0	_
+--- Relation ---
+T19
+--- ---
+566	ARG0	_
+--- Relation ---
+T4
+--- ---
+739	ARG0	_
+--- Relation ---
+T5
+--- ---
+768	ARG1	_
+--- Relation ---
+T5
+--- ---
+954	ARG0	_
+--- Relation ---
+T7
+--- ---
+996	ARG1	_
+--- Relation ---
+T7
+--- ---
+11	ARGM-LOC	_
+--- Relation ---
+T9
+--- ---
+108	ARGM-LOC	_
+--- Relation ---
+T1
+--- ---
+647	ARGM-TMP	_
+0	ARG0	_
+--- Relation ---
+T9
+--- ---
+81	ARG1	_
+--- Relation ---
+T2
+--- ---
+155	ARG1	_
+--- Relation ---
+T15
+--- ---
+167	ARG1	_
+--- Relation ---
+T15
+--- ---
+295	ARG0	_
+--- Relation ---
+T15
+--- ---
+531	ARGM-ADV	_
+--- Relation ---
+T4
+--- ---
+716	ARG0	_
+867	ARG1	_
+--- Relation ---
+T6
+--- ---
+903	ARG0	_
+--- Relation ---
+T6
+--- ---
+973	ARGM-LOC	_
+--- Relation ---
+T7
+--- ---
+1014	ARG2	_
+--- Relation ---
+T7
+--- ---
+Text: NW_APW_ENG_0079_20070813-2.ann
+----------------
+520	Predicate	остаться.02
+59	Predicate	_
+185	Predicate	_
+281	Predicate	_
+296	Predicate	_
+353	Predicate	_
+409	Predicate	обращаться.03
+469	Predicate	вызвать.02
+568	Predicate	_
+743	Predicate	_
+537	ARG1	_
+--- Relation ---
+T1
+--- ---
+380	ARGM-LOC	_
+--- Relation ---
+T7
+--- ---
+443	ARGM-CAU	_
+579	Predicate	попасть.02
+736	ARGM-TMP	_
+365	ARG0	_
+--- Relation ---
+T7
+--- ---
+435	ARG2	_
+453	ARG1	_
+--- Relation ---
+T8
+--- ---
+480	ARG0	_
+--- Relation ---
+T8
+--- ---
+509	ARG2	_
+--- Relation ---
+T1
+--- ---
+595	ARG1	_
+--- Relation ---
+T21
+--- ---
+591	ARG2	_
+--- Relation ---
+T21
+--- ---
+Text: NW_APW_ENG_0202_20050119-2.ann
+----------------
+13	Predicate	стать.01
+54	Predicate	начать.01
+404	Predicate	мочь.03
+886	Predicate	пострадать.01
+1424	Predicate	стоит.03
+1594	Predicate	получить.01
+1633	Predicate	говорить.01
+1650	Predicate	утверждать.02
+1794	Predicate	чувствовать.01
+365	Predicate	_
+410	Predicate	_
+473	Predicate	_
+532	Predicate	бежать.01
+553	Predicate	_
+564	Predicate	_
+714	Predicate	_
+940	Predicate	_
+1094	Predicate	достать.01
+1220	Predicate	выполнять.01
+1293	Predicate	наблюдать.01
+1403	Predicate	_
+1434	Predicate	_
+1458	Predicate	сойти.06
+1525	Predicate	_
+1552	Predicate	знать.01
+1564	Predicate	мочь.01
+1708	Predicate	_
+1715	Predicate	добраться.01
+1728	Predicate	_
+1747	Predicate	_
+1830	Predicate	решить.01
+1884	Predicate	отметить.03
+2039	Predicate	заметить.01
+2088	Predicate	_
+2170	Predicate	_
+6	ARGM-GOL	_
+--- Relation ---
+T1
+--- ---
+20	ARG2	_
+--- Relation ---
+T1
+--- ---
+63	ARG1	_
+--- Relation ---
+T2
+--- ---
+909	ARG0	_
+--- Relation ---
+T4
+--- ---
+902	ARGM-CAU	_
+--- Relation ---
+T4
+--- ---
+1548	ARG0	_
+--- Relation ---
+T26
+--- ---
+46	ARGM-LOC	_
+--- Relation ---
+T2
+--- ---
+130	Predicate	отметить.03
+204	Predicate	встречать.01
+235	ARGM-TMP	_
+--- Relation ---
+T49
+--- ---
+254	Predicate	_
+286	Predicate	вызвать.02
+1011	Predicate	_
+1069	ARGM-ADV	_
+1119	ARG2	_
+--- Relation ---
+T19
+--- ---
+1248	ARGM-TMP	_
+--- Relation ---
+T20
+--- ---
+1258	Predicate	сказать.01
+1348	ARGM-TMP	_
+--- Relation ---
+T21
+--- ---
+1584	ARGM-TMP	_
+--- Relation ---
+T7
+--- ---
+1786	ARGM-TMP	_
+--- Relation ---
+T10
+--- ---
+1840	Predicate	_
+1935	ARG1	_
+--- Relation ---
+T33
+--- ---
+1963	ARG1	_
+--- Relation ---
+T33
+--- ---
+2047	ARGM-LOC	_
+--- Relation ---
+T34
+--- ---
+54	ARGM-ADV	_
+--- Relation ---
+T1
+--- ---
+138	ARG0	_
+--- Relation ---
+T46
+--- ---
+89	ARG1	_
+--- Relation ---
+T46
+--- ---
+154	ARGM-LOC	_
+188	ARG1	_
+--- Relation ---
+T49
+--- ---
+218	ARGM-LOC	_
+--- Relation ---
+T49
+--- ---
+254	ARGM-CAU	_
+--- Relation ---
+T3
+--- ---
+254	ARG1	_
+--- Relation ---
+T53
+--- ---
+307	ARG0	_
+--- Relation ---
+T53
+--- ---
+497	ARG0	_
+--- Relation ---
+T14
+--- ---
+541	ARG4	_
+--- Relation ---
+T14
+--- ---
+1053	ARGM-TMP	_
+--- Relation ---
+T19
+--- ---
+1058	ARG0	_
+--- Relation ---
+T19
+--- ---
+1103	ARG1	_
+--- Relation ---
+T19
+--- ---
+1210	ARG0	_
+--- Relation ---
+T20
+--- ---
+1239	ARG1	_
+--- Relation ---
+T20
+--- ---
+1255	ARG0	_
+--- Relation ---
+T78
+--- ---
+1293	ARG1	_
+--- Relation ---
+T78
+--- ---
+1303	ARG0	_
+--- Relation ---
+T21
+--- ---
+1274	ARG1	_
+--- Relation ---
+T21
+--- ---
+1434	ARG1	_
+--- Relation ---
+T5
+--- ---
+1452	ARGM-ADV	_
+--- Relation ---
+T24
+--- ---
+1467	ARG2	_
+--- Relation ---
+T24
+--- ---
+1495	Predicate	пострадать.01
+1521	ARGM-LOC	_
+--- Relation ---
+T69
+--- ---
+1564	ARG1	_
+--- Relation ---
+T26
+--- ---
+1603	ARG1	_
+--- Relation ---
+T7
+--- ---
+1622	ARG1	_
+--- Relation ---
+T7
+--- ---
+1641	ARG0	_
+--- Relation ---
+T8
+--- ---
+1525	ARG1	_
+--- Relation ---
+T8
+--- ---
+1646	ARGM-ADV	_
+--- Relation ---
+T9
+--- ---
+1661	ARG0	_
+--- Relation ---
+T9
+--- ---
+1728	ARG1	_
+--- Relation ---
+T29
+--- ---
+1808	ARG1	_
+1815	ARG3	_
+1840	ARG1	_
+--- Relation ---
+T32
+--- ---
+1876	ARG0	_
+--- Relation ---
+T33
+--- ---
+1999	ARG1	_
+--- Relation ---
+T34
+--- ---

@@ -98,7 +98,7 @@ class BratCorpus(Corpus):
             roleset_ids = {}
             relations = {}
             file_corpus = BratCorpus(filename)
-            file = open(entry.path, encoding='utf8')
+            file = open(entry.path, encoding='utf-8')
             
             for line in file:
                 line = line.split()
@@ -169,4 +169,4 @@ class Token(CorpusComponent):
             print("--- ---")
     
     def as_string(self):
-        return f"{self.offset}\t{self.label}\t{self.roleset_id}"
+        return (self.offset + '\t' + self.label + '\t' + self.roleset_id)
