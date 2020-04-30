@@ -5,11 +5,11 @@ class CorpusIterator(Iterator):
     Concrete iterator for Corpus
     '''
 
-    def __init__(self, length):
+    def __init__(self, components):
         '''
         Constructor method
         '''
-        self.length = length
+        self.components = components
         self.num = 0
 
     def __iter__(self):
@@ -22,8 +22,8 @@ class CorpusIterator(Iterator):
         '''
         Uses the "generator pattern" https://wiki.python.org/moin/Generators
         '''
-        if self.num < self.length:
+        if self.num < len(self.components):
             cur, self.num = self.num, self.num + 1
-            return cur
+            return self.components[cur]
         else:
             raise StopIteration
