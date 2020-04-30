@@ -1,0 +1,1406 @@
+T1.1	NUM 0 2	30
+R1.1-1	nummod Arg1:T1.2 Arg2:T1.1
+#1.1	AnnotatorNotes T1.1	LEMMA=30 POSTAG=_
+T1.2	NOUN 3 10	человек
+A1.2-1	Case T1.2 Gen
+A1.2-2	Gender T1.2 Masc
+A1.2-3	Animacy T1.2 Anim
+A1.2-4	Number T1.2 Plur
+R1.2-1	nsubj Arg1:T1.3 Arg2:T1.2
+#1.2	AnnotatorNotes T1.2	LEMMA=человек POSTAG=_
+T1.3	VERB 11 18	погибли
+A1.3-1	VerbForm T1.3 Fin
+A1.3-2	Number T1.3 Plur
+A1.3-3	Tense T1.3 Past
+A1.3-4	Aspect T1.3 Perf
+A1.3-5	Voice T1.3 Act
+A1.3-6	Mood T1.3 Ind
+#1.3	AnnotatorNotes T1.3	LEMMA=погибать POSTAG=_
+T1.4	ADP 19 20	в
+R1.4-1	case Arg1:T1.5 Arg2:T1.4
+#1.4	AnnotatorNotes T1.4	LEMMA=в POSTAG=_
+T1.5	NOUN 21 31	результате
+A1.5-1	Case T1.5 Loc
+A1.5-2	Gender T1.5 Masc
+A1.5-3	Animacy T1.5 Inan
+A1.5-4	Number T1.5 Sing
+R1.5-1	obl Arg1:T1.3 Arg2:T1.5
+#1.5	AnnotatorNotes T1.5	LEMMA=результат POSTAG=_
+T1.6	ADJ 32 42	несезонных
+A1.6-1	Case T1.6 Gen
+A1.6-2	Number T1.6 Plur
+A1.6-3	Degree T1.6 Pos
+R1.6-1	amod Arg1:T1.7 Arg2:T1.6
+#1.6	AnnotatorNotes T1.6	LEMMA=несезонный POSTAG=_
+T1.7	NOUN 43 49	дождей
+A1.7-1	Case T1.7 Gen
+A1.7-2	Gender T1.7 Masc
+A1.7-3	Animacy T1.7 Inan
+A1.7-4	Number T1.7 Plur
+R1.7-1	nmod Arg1:T1.5 Arg2:T1.7
+#1.7	AnnotatorNotes T1.7	LEMMA=дождь POSTAG=_
+T1.8	ADP 50 51	в
+R1.8-1	case Arg1:T1.9 Arg2:T1.8
+#1.8	AnnotatorNotes T1.8	LEMMA=в POSTAG=_
+T1.9	PROPN 52 57	Омане
+A1.9-1	Case T1.9 Loc
+A1.9-2	Gender T1.9 Masc
+A1.9-3	Animacy T1.9 Inan
+A1.9-4	Number T1.9 Sing
+R1.9-1	nmod Arg1:T1.7 Arg2:T1.9
+#1.9	AnnotatorNotes T1.9	LEMMA=Оман POSTAG=_
+T2.1	NOUN 58 64	МАСКАТ
+A2.1-1	Case T2.1 Nom
+A2.1-2	Gender T2.1 Masc
+A2.1-3	Animacy T2.1 Inan
+A2.1-4	Number T2.1 Sing
+#2.1	AnnotatorNotes T2.1	LEMMA=Маскат POSTAG=_
+T2.2	PUNCT 65 66	,
+R2.2-1	punct Arg1:T2.1 Arg2:T2.2
+#2.2	AnnotatorNotes T2.2	LEMMA=, POSTAG=_
+T2.3	NUM 67 69	19
+R2.3-1	conj Arg1:T2.1 Arg2:T2.3
+#2.3	AnnotatorNotes T2.3	LEMMA=19 POSTAG=_
+T2.4	NOUN 70 76	апреля
+A2.4-1	Case T2.4 Gen
+A2.4-2	Gender T2.4 Masc
+A2.4-3	Animacy T2.4 Inan
+A2.4-4	Number T2.4 Sing
+R2.4-1	nmod Arg1:T2.3 Arg2:T2.4
+#2.4	AnnotatorNotes T2.4	LEMMA=апрель POSTAG=_
+T3.1	SCONJ 77 80	Как
+R3.1-1	mark Arg1:T3.17 Arg2:T3.1
+#3.1	AnnotatorNotes T3.1	LEMMA=как POSTAG=_
+T3.2	VERB 81 88	сообщил
+A3.2-1	VerbForm T3.2 Fin
+A3.2-2	Gender T3.2 Masc
+A3.2-3	Number T3.2 Sing
+A3.2-4	Tense T3.2 Past
+A3.2-5	Aspect T3.2 Perf
+A3.2-6	Voice T3.2 Act
+A3.2-7	Mood T3.2 Ind
+R3.2-1	parataxis Arg1:T3.17 Arg2:T3.2
+#3.2	AnnotatorNotes T3.2	LEMMA=сообщать POSTAG=_
+T3.3	ADJ 89 100	официальный
+A3.3-1	Case T3.3 Nom
+A3.3-2	Gender T3.3 Masc
+A3.3-3	Number T3.3 Sing
+A3.3-4	Degree T3.3 Pos
+R3.3-1	amod Arg1:T3.4 Arg2:T3.3
+#3.3	AnnotatorNotes T3.3	LEMMA=официальный POSTAG=_
+T3.4	NOUN 101 114	представитель
+A3.4-1	Case T3.4 Nom
+A3.4-2	Gender T3.4 Masc
+A3.4-3	Animacy T3.4 Anim
+A3.4-4	Number T3.4 Sing
+R3.4-1	nsubj Arg1:T3.2 Arg2:T3.4
+#3.4	AnnotatorNotes T3.4	LEMMA=представитель POSTAG=_
+T3.5	NOUN 115 122	полиции
+A3.5-1	Case T3.5 Gen
+A3.5-2	Gender T3.5 Fem
+A3.5-3	Animacy T3.5 Inan
+A3.5-4	Number T3.5 Sing
+R3.5-1	nmod Arg1:T3.4 Arg2:T3.5
+#3.5	AnnotatorNotes T3.5	LEMMA=полиция POSTAG=_
+T3.6	PROPN 123 130	Абдулла
+A3.6-1	Case T3.6 Nom
+A3.6-2	Gender T3.6 Masc
+A3.6-3	Animacy T3.6 Anim
+A3.6-4	Number T3.6 Sing
+R3.6-1	appos Arg1:T3.4 Arg2:T3.6
+#3.6	AnnotatorNotes T3.6	LEMMA=абдулла POSTAG=_
+T3.7	NOUN 131 140	аль-Харти
+A3.7-1	Case T3.7 Nom
+A3.7-2	Gender T3.7 Masc
+A3.7-3	Animacy T3.7 Anim
+A3.7-4	Number T3.7 Plur
+R3.7-1	appos Arg1:T3.6 Arg2:T3.7
+#3.7	AnnotatorNotes T3.7	LEMMA=аль-Харти POSTAG=_
+T3.8	ADP 141 142	в
+R3.8-1	case Arg1:T3.9 Arg2:T3.8
+#3.8	AnnotatorNotes T3.8	LEMMA=в POSTAG=_
+T3.9	NOUN 143 150	субботу
+A3.9-1	Case T3.9 Acc
+A3.9-2	Gender T3.9 Fem
+A3.9-3	Animacy T3.9 Inan
+A3.9-4	Number T3.9 Sing
+R3.9-1	obl Arg1:T3.2 Arg2:T3.9
+#3.9	AnnotatorNotes T3.9	LEMMA=суббота POSTAG=_
+T3.10	PUNCT 151 152	,
+R3.10-1	punct Arg1:T3.9 Arg2:T3.10
+#3.10	AnnotatorNotes T3.10	LEMMA=, POSTAG=_
+T3.11	ADP 153 155	за
+R3.11-1	case Arg1:T3.12 Arg2:T3.11
+#3.11	AnnotatorNotes T3.11	LEMMA=за POSTAG=_
+T3.12	NOUN 156 162	неделю
+A3.12-1	Case T3.12 Acc
+A3.12-2	Gender T3.12 Fem
+A3.12-3	Animacy T3.12 Inan
+A3.12-4	Number T3.12 Sing
+R3.12-1	obl Arg1:T3.17 Arg2:T3.12
+#3.12	AnnotatorNotes T3.12	LEMMA=неделя POSTAG=_
+T3.13	ADJ 163 173	несезонных
+A3.13-1	Case T3.13 Gen
+A3.13-2	Number T3.13 Plur
+A3.13-3	Degree T3.13 Pos
+R3.13-1	amod Arg1:T3.14 Arg2:T3.13
+#3.13	AnnotatorNotes T3.13	LEMMA=несезонный POSTAG=_
+T3.14	NOUN 174 180	дождей
+A3.14-1	Case T3.14 Gen
+A3.14-2	Gender T3.14 Masc
+A3.14-3	Animacy T3.14 Inan
+A3.14-4	Number T3.14 Plur
+R3.14-1	nmod Arg1:T3.12 Arg2:T3.14
+#3.14	AnnotatorNotes T3.14	LEMMA=дождь POSTAG=_
+T3.15	ADP 181 182	в
+R3.15-1	case Arg1:T3.16 Arg2:T3.15
+#3.15	AnnotatorNotes T3.15	LEMMA=в POSTAG=_
+T3.16	PROPN 183 188	Омане
+A3.16-1	Case T3.16 Loc
+A3.16-2	Gender T3.16 Masc
+A3.16-3	Animacy T3.16 Inan
+A3.16-4	Number T3.16 Sing
+R3.16-1	obl Arg1:T3.17 Arg2:T3.16
+#3.16	AnnotatorNotes T3.16	LEMMA=Оман POSTAG=_
+T3.17	VERB 189 196	погибли
+A3.17-1	VerbForm T3.17 Fin
+A3.17-2	Number T3.17 Plur
+A3.17-3	Tense T3.17 Past
+A3.17-4	Aspect T3.17 Perf
+A3.17-5	Voice T3.17 Act
+A3.17-6	Mood T3.17 Ind
+#3.17	AnnotatorNotes T3.17	LEMMA=погибать POSTAG=_
+T3.18	NUM 197 205	тридцать
+A3.18-1	Case T3.18 Nom
+R3.18-1	nummod_gov Arg1:T3.19 Arg2:T3.18
+#3.18	AnnotatorNotes T3.18	LEMMA=тридцать POSTAG=_
+T3.19	NOUN 206 213	человек
+A3.19-1	Case T3.19 Gen
+A3.19-2	Gender T3.19 Masc
+A3.19-3	Animacy T3.19 Anim
+A3.19-4	Number T3.19 Plur
+R3.19-1	nsubj Arg1:T3.17 Arg2:T3.19
+#3.19	AnnotatorNotes T3.19	LEMMA=человек POSTAG=_
+T3.20	PUNCT 214 215	,
+R3.20-1	punct Arg1:T3.19 Arg2:T3.20
+#3.20	AnnotatorNotes T3.20	LEMMA=, POSTAG=_
+T3.21	ADP 216 221	среди
+R3.21-1	case Arg1:T3.22 Arg2:T3.21
+#3.21	AnnotatorNotes T3.21	LEMMA=среди POSTAG=_
+T3.22	PRON 222 225	них
+A3.22-1	Case T3.22 Gen
+A3.22-2	Person T3.22 3
+A3.22-3	Number T3.22 Plur
+R3.22-1	obl Arg1:T3.17 Arg2:T3.22
+#3.22	AnnotatorNotes T3.22	LEMMA=они POSTAG=_
+T3.23	PUNCT 226 227	—
+R3.23-1	punct Arg1:T3.22 Arg2:T3.23
+#3.23	AnnotatorNotes T3.23	LEMMA=— POSTAG=_
+T3.24	NUM 228 232	пять
+A3.24-1	Case T3.24 Nom
+R3.24-1	nummod_gov Arg1:T3.25 Arg2:T3.24
+#3.24	AnnotatorNotes T3.24	LEMMA=пять POSTAG=_
+T3.25	NOUN 233 240	граждан
+A3.25-1	Case T3.25 Gen
+A3.25-2	Gender T3.25 Masc
+A3.25-3	Animacy T3.25 Anim
+A3.25-4	Number T3.25 Plur
+R3.25-1	nsubj Arg1:T3.17 Arg2:T3.25
+#3.25	AnnotatorNotes T3.25	LEMMA=гражданин POSTAG=_
+T3.26	PROPN 241 246	Индии
+A3.26-1	Case T3.26 Gen
+A3.26-2	Gender T3.26 Fem
+A3.26-3	Animacy T3.26 Inan
+A3.26-4	Number T3.26 Sing
+R3.26-1	nmod Arg1:T3.25 Arg2:T3.26
+#3.26	AnnotatorNotes T3.26	LEMMA=индия POSTAG=_
+T3.27	PUNCT 247 248	,
+R3.27-1	punct Arg1:T3.26 Arg2:T3.27
+#3.27	AnnotatorNotes T3.27	LEMMA=, POSTAG=_
+T3.28	NUM 249 255	четыре
+A3.28-1	Case T3.28 Nom
+R3.28-1	nummod_gov Arg1:T3.29 Arg2:T3.28
+#3.28	AnnotatorNotes T3.28	LEMMA=четыре POSTAG=_
+T3.29	NOUN 256 266	гражданина
+A3.29-1	Case T3.29 Gen
+A3.29-2	Gender T3.29 Masc
+A3.29-3	Animacy T3.29 Anim
+A3.29-4	Number T3.29 Sing
+R3.29-1	conj Arg1:T3.25 Arg2:T3.29
+#3.29	AnnotatorNotes T3.29	LEMMA=гражданин POSTAG=_
+T3.30	PROPN 267 276	Пакистана
+A3.30-1	Case T3.30 Gen
+A3.30-2	Gender T3.30 Masc
+A3.30-3	Animacy T3.30 Inan
+A3.30-4	Number T3.30 Sing
+R3.30-1	nmod Arg1:T3.29 Arg2:T3.30
+#3.30	AnnotatorNotes T3.30	LEMMA=пакистан POSTAG=_
+T3.31	PUNCT 277 278	,
+R3.31-1	punct Arg1:T3.30 Arg2:T3.31
+#3.31	AnnotatorNotes T3.31	LEMMA=, POSTAG=_
+T3.32	CCONJ 279 280	а
+R3.32-1	cc Arg1:T3.34 Arg2:T3.32
+#3.32	AnnotatorNotes T3.32	LEMMA=а POSTAG=_
+T3.33	ADV 281 286	также
+A3.33-1	Degree T3.33 Pos
+R3.33-1	advmod Arg1:T3.34 Arg2:T3.33
+#3.33	AnnotatorNotes T3.33	LEMMA=также POSTAG=_
+T3.34	NOUN 287 292	семья
+A3.34-1	Case T3.34 Nom
+A3.34-2	Gender T3.34 Fem
+A3.34-3	Animacy T3.34 Inan
+A3.34-4	Number T3.34 Sing
+R3.34-1	conj Arg1:T3.25 Arg2:T3.34
+#3.34	AnnotatorNotes T3.34	LEMMA=семья POSTAG=_
+T3.35	ADP 293 295	из
+R3.35-1	case Arg1:T3.38 Arg2:T3.35
+#3.35	AnnotatorNotes T3.35	LEMMA=из POSTAG=_
+T3.36	VERB 296 308	Объединенных
+A3.36-1	Case T3.36 Gen
+A3.36-2	VerbForm T3.36 Part
+A3.36-3	Number T3.36 Plur
+A3.36-4	Tense T3.36 Past
+A3.36-5	Aspect T3.36 Perf
+A3.36-6	Voice T3.36 Pass
+R3.36-1	amod Arg1:T3.38 Arg2:T3.36
+#3.36	AnnotatorNotes T3.36	LEMMA=объединять POSTAG=_
+T3.37	ADJ 309 317	Арабских
+A3.37-1	Case T3.37 Gen
+A3.37-2	Number T3.37 Plur
+A3.37-3	Degree T3.37 Pos
+R3.37-1	amod Arg1:T3.38 Arg2:T3.37
+#3.37	AnnotatorNotes T3.37	LEMMA=арабский POSTAG=_
+T3.38	PROPN 318 326	Эмиратов
+A3.38-1	Case T3.38 Gen
+A3.38-2	Gender T3.38 Masc
+A3.38-3	Animacy T3.38 Inan
+A3.38-4	Number T3.38 Plur
+R3.38-1	nmod Arg1:T3.34 Arg2:T3.38
+#3.38	AnnotatorNotes T3.38	LEMMA=эмират POSTAG=_
+T3.39	PUNCT 327 328	,
+R3.39-1	punct Arg1:T3.38 Arg2:T3.39
+#3.39	AnnotatorNotes T3.39	LEMMA=, POSTAG=_
+T3.40	NOUN 329 339	автомобиль
+A3.40-1	Case T3.40 Nom
+A3.40-2	Gender T3.40 Masc
+A3.40-3	Animacy T3.40 Inan
+A3.40-4	Number T3.40 Sing
+R3.40-1	nsubj Arg1:T3.43 Arg2:T3.40
+#3.40	AnnotatorNotes T3.40	LEMMA=автомобиль POSTAG=_
+T3.41	PRON 340 347	которой
+A3.41-1	Case T3.41 Gen
+R3.41-1	nmod Arg1:T3.40 Arg2:T3.41
+#3.41	AnnotatorNotes T3.41	LEMMA=который POSTAG=_
+T3.42	AUX 348 351	был
+A3.42-1	VerbForm T3.42 Fin
+A3.42-2	Gender T3.42 Masc
+A3.42-3	Number T3.42 Sing
+A3.42-4	Tense T3.42 Past
+A3.42-5	Aspect T3.42 Imp
+A3.42-6	Voice T3.42 Act
+A3.42-7	Mood T3.42 Ind
+R3.42-1	aux_pass Arg1:T3.43 Arg2:T3.42
+#3.42	AnnotatorNotes T3.42	LEMMA=быть POSTAG=_
+T3.43	VERB 352 358	унесен
+A3.43-1	VerbForm T3.43 Part
+A3.43-2	Gender T3.43 Masc
+A3.43-3	Variant T3.43 Short
+A3.43-4	Number T3.43 Sing
+A3.43-5	Tense T3.43 Past
+A3.43-6	Aspect T3.43 Perf
+A3.43-7	Voice T3.43 Pass
+R3.43-1	acl_relcl Arg1:T3.25 Arg2:T3.43
+#3.43	AnnotatorNotes T3.43	LEMMA=уносить POSTAG=_
+T3.44	ADJ 359 365	водным
+A3.44-1	Case T3.44 Ins
+A3.44-2	Gender T3.44 Masc
+A3.44-3	Number T3.44 Sing
+A3.44-4	Degree T3.44 Pos
+R3.44-1	amod Arg1:T3.45 Arg2:T3.44
+#3.44	AnnotatorNotes T3.44	LEMMA=водный POSTAG=_
+T3.45	NOUN 366 373	потоком
+A3.45-1	Case T3.45 Ins
+A3.45-2	Gender T3.45 Masc
+A3.45-3	Animacy T3.45 Inan
+A3.45-4	Number T3.45 Sing
+R3.45-1	obl Arg1:T3.43 Arg2:T3.45
+#3.45	AnnotatorNotes T3.45	LEMMA=поток POSTAG=_
+T3.46	PUNCT 374 375	.
+R3.46-1	punct Arg1:T3.45 Arg2:T3.46
+#3.46	AnnotatorNotes T3.46	LEMMA=. POSTAG=_
+T4.1	NOUN 376 381	Семья
+A4.1-1	Case T4.1 Nom
+A4.1-2	Gender T4.1 Fem
+A4.1-3	Animacy T4.1 Inan
+A4.1-4	Number T4.1 Sing
+R4.1-1	nsubj Arg1:T4.5 Arg2:T4.1
+#4.1	AnnotatorNotes T4.1	LEMMA=семья POSTAG=_
+T4.2	ADP 382 384	из
+R4.2-1	case Arg1:T4.4 Arg2:T4.2
+#4.2	AnnotatorNotes T4.2	LEMMA=из POSTAG=_
+T4.3	NUM 385 389	семи
+A4.3-1	Case T4.3 Gen
+R4.3-1	nummod Arg1:T4.4 Arg2:T4.3
+#4.3	AnnotatorNotes T4.3	LEMMA=семь POSTAG=_
+T4.4	NOUN 390 397	человек
+A4.4-1	Case T4.4 Gen
+A4.4-2	Gender T4.4 Masc
+A4.4-3	Animacy T4.4 Anim
+A4.4-4	Number T4.4 Plur
+R4.4-1	nmod Arg1:T4.1 Arg2:T4.4
+#4.4	AnnotatorNotes T4.4	LEMMA=человек POSTAG=_
+T4.5	VERB 398 405	погибла
+A4.5-1	VerbForm T4.5 Fin
+A4.5-2	Gender T4.5 Fem
+A4.5-3	Number T4.5 Sing
+A4.5-4	Tense T4.5 Past
+A4.5-5	Aspect T4.5 Perf
+A4.5-6	Voice T4.5 Act
+A4.5-7	Mood T4.5 Ind
+#4.5	AnnotatorNotes T4.5	LEMMA=погибать POSTAG=_
+T4.6	PUNCT 406 407	,
+R4.6-1	punct Arg1:T4.5 Arg2:T4.6
+#4.6	AnnotatorNotes T4.6	LEMMA=, POSTAG=_
+T4.7	SCONJ 408 413	когда
+R4.7-1	mark Arg1:T4.5 Arg2:T4.7
+#4.7	AnnotatorNotes T4.7	LEMMA=когда POSTAG=_
+T4.8	ADV 414 418	вади
+A4.8-1	Degree T4.8 Pos
+R4.8-1	advcl Arg1:T4.5 Arg2:T4.8
+#4.8	AnnotatorNotes T4.8	LEMMA=вадь POSTAG=_
+T4.9	PUNCT 419 420	,
+R4.9-1	punct Arg1:T4.8 Arg2:T4.9
+#4.9	AnnotatorNotes T4.9	LEMMA=, POSTAG=_
+T4.10	CCONJ 421 424	или
+R4.10-1	cc Arg1:T4.12 Arg2:T4.10
+#4.10	AnnotatorNotes T4.10	LEMMA=или POSTAG=_
+T4.11	ADJ 425 430	сухое
+A4.11-1	Case T4.11 Acc
+A4.11-2	Gender T4.11 Neut
+A4.11-3	Number T4.11 Sing
+A4.11-4	Degree T4.11 Pos
+R4.11-1	amod Arg1:T4.12 Arg2:T4.11
+#4.11	AnnotatorNotes T4.11	LEMMA=сухой POSTAG=_
+T4.12	NOUN 431 436	русло
+A4.12-1	Case T4.12 Acc
+A4.12-2	Gender T4.12 Neut
+A4.12-3	Animacy T4.12 Inan
+A4.12-4	Number T4.12 Sing
+R4.12-1	conj Arg1:T4.5 Arg2:T4.12
+#4.12	AnnotatorNotes T4.12	LEMMA=русло POSTAG=_
+T4.13	NOUN 437 441	реки
+A4.13-1	Case T4.13 Gen
+A4.13-2	Gender T4.13 Fem
+A4.13-3	Animacy T4.13 Inan
+A4.13-4	Number T4.13 Sing
+R4.13-1	nmod Arg1:T4.12 Arg2:T4.13
+#4.13	AnnotatorNotes T4.13	LEMMA=река POSTAG=_
+T4.14	PUNCT 442 443	,
+R4.14-1	punct Arg1:T4.13 Arg2:T4.14
+#4.14	AnnotatorNotes T4.14	LEMMA=, POSTAG=_
+T4.15	VERB 444 455	переполнили
+A4.15-1	VerbForm T4.15 Fin
+A4.15-2	Number T4.15 Plur
+A4.15-3	Tense T4.15 Past
+A4.15-4	Aspect T4.15 Perf
+A4.15-5	Voice T4.15 Act
+A4.15-6	Mood T4.15 Ind
+R4.15-1	conj Arg1:T4.5 Arg2:T4.15
+#4.15	AnnotatorNotes T4.15	LEMMA=переполнять POSTAG=_
+T4.16	NOUN 456 462	потоки
+A4.16-1	Case T4.16 Acc
+A4.16-2	Gender T4.16 Masc
+A4.16-3	Animacy T4.16 Inan
+A4.16-4	Number T4.16 Plur
+R4.16-1	obj Arg1:T4.15 Arg2:T4.16
+#4.16	AnnotatorNotes T4.16	LEMMA=поток POSTAG=_
+T4.17	NOUN 463 467	воды
+A4.17-1	Case T4.17 Gen
+A4.17-2	Gender T4.17 Fem
+A4.17-3	Animacy T4.17 Inan
+A4.17-4	Number T4.17 Sing
+R4.17-1	nmod Arg1:T4.16 Arg2:T4.17
+#4.17	AnnotatorNotes T4.17	LEMMA=вода POSTAG=_
+T4.18	ADP 468 469	в
+R4.18-1	case Arg1:T4.19 Arg2:T4.18
+#4.18	AnnotatorNotes T4.18	LEMMA=в POSTAG=_
+T4.19	PROPN 470 477	Вилаяте
+A4.19-1	Case T4.19 Loc
+A4.19-2	Gender T4.19 Masc
+A4.19-3	Animacy T4.19 Inan
+A4.19-4	Number T4.19 Sing
+R4.19-1	obl Arg1:T4.15 Arg2:T4.19
+#4.19	AnnotatorNotes T4.19	LEMMA=Вилаят POSTAG=_
+T4.20	PUNCT 478 479	,
+R4.20-1	punct Arg1:T4.19 Arg2:T4.20
+#4.20	AnnotatorNotes T4.20	LEMMA=, POSTAG=_
+T4.21	ADV 480 488	недалеко
+A4.21-1	Degree T4.21 Pos
+R4.21-1	conj Arg1:T4.5 Arg2:T4.21
+#4.21	AnnotatorNotes T4.21	LEMMA=недалеко POSTAG=_
+T4.22	ADP 489 491	от
+R4.22-1	case Arg1:T4.23 Arg2:T4.22
+#4.22	AnnotatorNotes T4.22	LEMMA=от POSTAG=_
+T4.23	NOUN 492 499	границы
+A4.23-1	Case T4.23 Gen
+A4.23-2	Gender T4.23 Fem
+A4.23-3	Animacy T4.23 Inan
+A4.23-4	Number T4.23 Sing
+R4.23-1	nmod Arg1:T4.21 Arg2:T4.23
+#4.23	AnnotatorNotes T4.23	LEMMA=граница POSTAG=_
+T4.24	ADP 500 501	с
+R4.24-1	case Arg1:T4.25 Arg2:T4.24
+#4.24	AnnotatorNotes T4.24	LEMMA=с POSTAG=_
+T4.25	PROPN 502 505	ОАЭ
+A4.25-1	Case T4.25 Loc
+A4.25-2	Gender T4.25 Masc
+A4.25-3	Animacy T4.25 Inan
+A4.25-4	Number T4.25 Plur
+R4.25-1	nmod Arg1:T4.23 Arg2:T4.25
+#4.25	AnnotatorNotes T4.25	LEMMA=оаэ POSTAG=_
+T4.26	PUNCT 506 507	.
+R4.26-1	punct Arg1:T4.25 Arg2:T4.26
+#4.26	AnnotatorNotes T4.26	LEMMA=. POSTAG=_
+T5.1	PUNCT 508 509	«
+R5.1-1	punct Arg1:T5.2 Arg2:T5.1
+#5.1	AnnotatorNotes T5.1	LEMMA=« POSTAG=_
+T5.2	PRON 510 512	Мы
+A5.2-1	Case T5.2 Nom
+A5.2-2	Person T5.2 1
+A5.2-3	Number T5.2 Plur
+R5.2-1	nsubj Arg1:T5.3 Arg2:T5.2
+#5.2	AnnotatorNotes T5.2	LEMMA=мы POSTAG=_
+T5.3	VERB 513 523	обнаружили
+A5.3-1	VerbForm T5.3 Fin
+A5.3-2	Number T5.3 Plur
+A5.3-3	Tense T5.3 Past
+A5.3-4	Aspect T5.3 Perf
+A5.3-5	Voice T5.3 Act
+A5.3-6	Mood T5.3 Ind
+#5.3	AnnotatorNotes T5.3	LEMMA=обнаруживать POSTAG=_
+T5.4	ADP 524 525	в
+R5.4-1	case Arg1:T5.5 Arg2:T5.4
+#5.4	AnnotatorNotes T5.4	LEMMA=в POSTAG=_
+T5.5	NOUN 526 532	машине
+A5.5-1	Case T5.5 Loc
+A5.5-2	Gender T5.5 Fem
+A5.5-3	Animacy T5.5 Inan
+A5.5-4	Number T5.5 Sing
+R5.5-1	obl Arg1:T5.3 Arg2:T5.5
+#5.5	AnnotatorNotes T5.5	LEMMA=машина POSTAG=_
+T5.6	NUM 533 537	семь
+A5.6-1	Case T5.6 Nom
+R5.6-1	nummod_gov Arg1:T5.7 Arg2:T5.6
+#5.6	AnnotatorNotes T5.6	LEMMA=семь POSTAG=_
+T5.7	NOUN 538 544	трупов
+A5.7-1	Case T5.7 Gen
+A5.7-2	Gender T5.7 Masc
+A5.7-3	Animacy T5.7 Inan
+A5.7-4	Number T5.7 Plur
+R5.7-1	obl Arg1:T5.3 Arg2:T5.7
+#5.7	AnnotatorNotes T5.7	LEMMA=труп POSTAG=_
+T5.8	PUNCT 545 546	»
+R5.8-1	punct Arg1:T5.7 Arg2:T5.8
+#5.8	AnnotatorNotes T5.8	LEMMA=» POSTAG=_
+T5.9	PUNCT 547 548	,
+R5.9-1	punct Arg1:T5.7 Arg2:T5.9
+#5.9	AnnotatorNotes T5.9	LEMMA=, POSTAG=_
+T5.10	PUNCT 549 550	—
+R5.10-1	punct Arg1:T5.7 Arg2:T5.10
+#5.10	AnnotatorNotes T5.10	LEMMA=— POSTAG=_
+T5.11	VERB 551 557	сказал
+A5.11-1	VerbForm T5.11 Fin
+A5.11-2	Gender T5.11 Masc
+A5.11-3	Number T5.11 Sing
+A5.11-4	Tense T5.11 Past
+A5.11-5	Aspect T5.11 Perf
+A5.11-6	Voice T5.11 Act
+A5.11-7	Mood T5.11 Ind
+R5.11-1	parataxis Arg1:T5.3 Arg2:T5.11
+#5.11	AnnotatorNotes T5.11	LEMMA=сказать POSTAG=_
+T5.12	NOUN 558 571	представитель
+A5.12-1	Case T5.12 Nom
+A5.12-2	Gender T5.12 Masc
+A5.12-3	Animacy T5.12 Anim
+A5.12-4	Number T5.12 Sing
+R5.12-1	nsubj Arg1:T5.11 Arg2:T5.12
+#5.12	AnnotatorNotes T5.12	LEMMA=представитель POSTAG=_
+T5.13	NOUN 572 579	полиции
+A5.13-1	Case T5.13 Gen
+A5.13-2	Gender T5.13 Fem
+A5.13-3	Animacy T5.13 Inan
+A5.13-4	Number T5.13 Sing
+R5.13-1	nmod Arg1:T5.12 Arg2:T5.13
+#5.13	AnnotatorNotes T5.13	LEMMA=полиция POSTAG=_
+T5.14	PUNCT 580 581	,
+R5.14-1	punct Arg1:T5.13 Arg2:T5.14
+#5.14	AnnotatorNotes T5.14	LEMMA=, POSTAG=_
+T5.15	PROPN 582 589	Абдулла
+A5.15-1	Case T5.15 Nom
+A5.15-2	Gender T5.15 Masc
+A5.15-3	Animacy T5.15 Anim
+A5.15-4	Number T5.15 Sing
+R5.15-1	appos Arg1:T5.12 Arg2:T5.15
+#5.15	AnnotatorNotes T5.15	LEMMA=абдулла POSTAG=_
+T5.16	NOUN 590 599	аль-Харти
+A5.16-1	Case T5.16 Nom
+A5.16-2	Gender T5.16 Masc
+A5.16-3	Animacy T5.16 Anim
+A5.16-4	Number T5.16 Plur
+R5.16-1	appos Arg1:T5.15 Arg2:T5.16
+#5.16	AnnotatorNotes T5.16	LEMMA=аль-Харти POSTAG=_
+T5.17	PUNCT 600 601	.
+R5.17-1	punct Arg1:T5.16 Arg2:T5.17
+#5.17	AnnotatorNotes T5.17	LEMMA=. POSTAG=_
+T6.1	ADP 602 604	По
+R6.1-1	case Arg1:T6.2 Arg2:T6.1
+#6.1	AnnotatorNotes T6.1	LEMMA=по POSTAG=_
+T6.2	NOUN 605 611	данным
+A6.2-1	Case T6.2 Dat
+A6.2-2	Animacy T6.2 Inan
+A6.2-3	Number T6.2 Plur
+R6.2-1	parataxis Arg1:T6.8 Arg2:T6.2
+#6.2	AnnotatorNotes T6.2	LEMMA=данные POSTAG=_
+T6.3	NOUN 612 622	посольства
+A6.3-1	Case T6.3 Gen
+A6.3-2	Gender T6.3 Neut
+A6.3-3	Animacy T6.3 Inan
+A6.3-4	Number T6.3 Sing
+R6.3-1	nmod Arg1:T6.2 Arg2:T6.3
+#6.3	AnnotatorNotes T6.3	LEMMA=посольство POSTAG=_
+T6.4	NUM 623 628	обеих
+A6.4-1	Case T6.4 Gen
+A6.4-2	Gender T6.4 Fem
+R6.4-1	nummod Arg1:T6.5 Arg2:T6.4
+#6.4	AnnotatorNotes T6.4	LEMMA=оба POSTAG=_
+T6.5	NOUN 629 634	стран
+A6.5-1	Case T6.5 Gen
+A6.5-2	Gender T6.5 Fem
+A6.5-3	Animacy T6.5 Inan
+A6.5-4	Number T6.5 Plur
+R6.5-1	nmod Arg1:T6.3 Arg2:T6.5
+#6.5	AnnotatorNotes T6.5	LEMMA=страна POSTAG=_
+T6.6	PUNCT 635 636	,
+R6.6-1	punct Arg1:T6.5 Arg2:T6.6
+#6.6	AnnotatorNotes T6.6	LEMMA=, POSTAG=_
+T6.7	NOUN 637 643	стихия
+A6.7-1	Case T6.7 Nom
+A6.7-2	Gender T6.7 Fem
+A6.7-3	Animacy T6.7 Inan
+A6.7-4	Number T6.7 Sing
+R6.7-1	nsubj Arg1:T6.8 Arg2:T6.7
+#6.7	AnnotatorNotes T6.7	LEMMA=стихия POSTAG=_
+T6.8	VERB 644 650	унесла
+A6.8-1	VerbForm T6.8 Fin
+A6.8-2	Gender T6.8 Fem
+A6.8-3	Number T6.8 Sing
+A6.8-4	Tense T6.8 Past
+A6.8-5	Aspect T6.8 Perf
+A6.8-6	Voice T6.8 Act
+A6.8-7	Mood T6.8 Ind
+#6.8	AnnotatorNotes T6.8	LEMMA=уносить POSTAG=_
+T6.9	NOUN 651 656	жизни
+A6.9-1	Case T6.9 Acc
+A6.9-2	Gender T6.9 Fem
+A6.9-3	Animacy T6.9 Inan
+A6.9-4	Number T6.9 Plur
+R6.9-1	obj Arg1:T6.8 Arg2:T6.9
+#6.9	AnnotatorNotes T6.9	LEMMA=жизнь POSTAG=_
+T6.10	NUM 657 661	пяти
+A6.10-1	Case T6.10 Gen
+R6.10-1	nummod Arg1:T6.11 Arg2:T6.10
+#6.10	AnnotatorNotes T6.10	LEMMA=пять POSTAG=_
+T6.11	NOUN 662 669	граждан
+A6.11-1	Case T6.11 Gen
+A6.11-2	Gender T6.11 Masc
+A6.11-3	Animacy T6.11 Anim
+A6.11-4	Number T6.11 Plur
+R6.11-1	nmod Arg1:T6.9 Arg2:T6.11
+#6.11	AnnotatorNotes T6.11	LEMMA=гражданин POSTAG=_
+T6.12	PROPN 670 675	Индии
+A6.12-1	Case T6.12 Gen
+A6.12-2	Gender T6.12 Fem
+A6.12-3	Animacy T6.12 Inan
+A6.12-4	Number T6.12 Sing
+R6.12-1	nmod Arg1:T6.11 Arg2:T6.12
+#6.12	AnnotatorNotes T6.12	LEMMA=индия POSTAG=_
+T6.13	CCONJ 676 677	и
+R6.13-1	cc Arg1:T6.15 Arg2:T6.13
+#6.13	AnnotatorNotes T6.13	LEMMA=и POSTAG=_
+T6.14	NUM 678 685	четырех
+A6.14-1	Case T6.14 Gen
+R6.14-1	nummod Arg1:T6.15 Arg2:T6.14
+#6.14	AnnotatorNotes T6.14	LEMMA=четыре POSTAG=_
+T6.15	NOUN 686 693	граждан
+A6.15-1	Case T6.15 Gen
+A6.15-2	Gender T6.15 Masc
+A6.15-3	Animacy T6.15 Anim
+A6.15-4	Number T6.15 Plur
+R6.15-1	conj Arg1:T6.12 Arg2:T6.15
+#6.15	AnnotatorNotes T6.15	LEMMA=гражданин POSTAG=_
+T6.16	PROPN 694 703	Пакистана
+A6.16-1	Case T6.16 Gen
+A6.16-2	Gender T6.16 Masc
+A6.16-3	Animacy T6.16 Inan
+A6.16-4	Number T6.16 Sing
+R6.16-1	nmod Arg1:T6.15 Arg2:T6.16
+#6.16	AnnotatorNotes T6.16	LEMMA=пакистан POSTAG=_
+T6.17	PUNCT 704 705	.
+R6.17-1	punct Arg1:T6.16 Arg2:T6.17
+#6.17	AnnotatorNotes T6.17	LEMMA=. POSTAG=_
+T7.1	ADJ 706 712	Первый
+A7.1-1	Case T7.1 Nom
+A7.1-2	Gender T7.1 Masc
+A7.1-3	Number T7.1 Sing
+A7.1-4	Degree T7.1 Pos
+R7.1-1	amod Arg1:T7.2 Arg2:T7.1
+#7.1	AnnotatorNotes T7.1	LEMMA=первый POSTAG=_
+T7.2	NOUN 713 722	секретарь
+A7.2-1	Case T7.2 Nom
+A7.2-2	Gender T7.2 Masc
+A7.2-3	Animacy T7.2 Anim
+A7.2-4	Number T7.2 Sing
+R7.2-1	nsubj Arg1:T7.7 Arg2:T7.2
+#7.2	AnnotatorNotes T7.2	LEMMA=секретарь POSTAG=_
+T7.3	NOUN 723 733	посольства
+A7.3-1	Case T7.3 Gen
+A7.3-2	Gender T7.3 Neut
+A7.3-3	Animacy T7.3 Inan
+A7.3-4	Number T7.3 Sing
+R7.3-1	nmod Arg1:T7.2 Arg2:T7.3
+#7.3	AnnotatorNotes T7.3	LEMMA=посольство POSTAG=_
+T7.4	PROPN 734 739	Индии
+A7.4-1	Case T7.4 Gen
+A7.4-2	Gender T7.4 Fem
+A7.4-3	Animacy T7.4 Inan
+A7.4-4	Number T7.4 Sing
+R7.4-1	nmod Arg1:T7.3 Arg2:T7.4
+#7.4	AnnotatorNotes T7.4	LEMMA=индия POSTAG=_
+T7.5	PROPN 740 749	Бхупиндер
+A7.5-1	Case T7.5 Nom
+A7.5-2	Gender T7.5 Masc
+A7.5-3	Animacy T7.5 Anim
+A7.5-4	Number T7.5 Sing
+R7.5-1	appos Arg1:T7.2 Arg2:T7.5
+#7.5	AnnotatorNotes T7.5	LEMMA=Бхупиндер POSTAG=_
+T7.6	PROPN 750 755	Сингх
+A7.6-1	Case T7.6 Nom
+A7.6-2	Gender T7.6 Masc
+A7.6-3	Animacy T7.6 Anim
+A7.6-4	Number T7.6 Sing
+R7.6-1	flat_name Arg1:T7.5 Arg2:T7.6
+#7.6	AnnotatorNotes T7.6	LEMMA=сингх POSTAG=_
+T7.7	VERB 756 766	утверждает
+A7.7-1	VerbForm T7.7 Fin
+A7.7-2	Number T7.7 Sing
+A7.7-3	Person T7.7 3
+A7.7-4	Tense T7.7 Pres
+A7.7-5	Aspect T7.7 Imp
+A7.7-6	Voice T7.7 Act
+A7.7-7	Mood T7.7 Ind
+#7.7	AnnotatorNotes T7.7	LEMMA=утверждать POSTAG=_
+T7.8	PUNCT 767 768	,
+R7.8-1	punct Arg1:T7.7 Arg2:T7.8
+#7.8	AnnotatorNotes T7.8	LEMMA=, POSTAG=_
+T7.9	SCONJ 769 772	что
+R7.9-1	cc Arg1:T7.7 Arg2:T7.9
+#7.9	AnnotatorNotes T7.9	LEMMA=что POSTAG=_
+T7.10	NOUN 773 777	тело
+A7.10-1	Case T7.10 Nom
+A7.10-2	Gender T7.10 Neut
+A7.10-3	Animacy T7.10 Inan
+A7.10-4	Number T7.10 Sing
+R7.10-1	nsubj Arg1:T7.23 Arg2:T7.10
+#7.10	AnnotatorNotes T7.10	LEMMA=тело POSTAG=_
+T7.11	PROPN 778 785	Дхарама
+A7.11-1	Case T7.11 Gen
+A7.11-2	Gender T7.11 Masc
+A7.11-3	Animacy T7.11 Anim
+A7.11-4	Number T7.11 Sing
+R7.11-1	nmod Arg1:T7.10 Arg2:T7.11
+#7.11	AnnotatorNotes T7.11	LEMMA=Дхарам POSTAG=_
+T7.12	PROPN 786 791	Датта
+A7.12-1	Case T7.12 Gen
+A7.12-2	Gender T7.12 Masc
+A7.12-3	Animacy T7.12 Anim
+A7.12-4	Number T7.12 Sing
+R7.12-1	flat_name Arg1:T7.11 Arg2:T7.12
+#7.12	AnnotatorNotes T7.12	LEMMA=Датта POSTAG=_
+T7.13	PROPN 792 797	Чояла
+A7.13-1	Case T7.13 Gen
+A7.13-2	Gender T7.13 Masc
+A7.13-3	Animacy T7.13 Anim
+A7.13-4	Number T7.13 Sing
+R7.13-1	flat_name Arg1:T7.12 Arg2:T7.13
+#7.13	AnnotatorNotes T7.13	LEMMA=Чоял POSTAG=_
+T7.14	PUNCT 798 799	,
+R7.14-1	punct Arg1:T7.13 Arg2:T7.14
+#7.14	AnnotatorNotes T7.14	LEMMA=, POSTAG=_
+T7.15	NOUN 800 809	строителя
+A7.15-1	Case T7.15 Gen
+A7.15-2	Gender T7.15 Masc
+A7.15-3	Animacy T7.15 Anim
+A7.15-4	Number T7.15 Sing
+R7.15-1	nmod Arg1:T7.10 Arg2:T7.15
+#7.15	AnnotatorNotes T7.15	LEMMA=строитель POSTAG=_
+T7.16	ADP 810 812	из
+R7.16-1	case Arg1:T7.19 Arg2:T7.16
+#7.16	AnnotatorNotes T7.16	LEMMA=из POSTAG=_
+T7.17	ADJ 813 822	западного
+A7.17-1	Case T7.17 Gen
+A7.17-2	Gender T7.17 Masc
+A7.17-3	Number T7.17 Sing
+A7.17-4	Degree T7.17 Pos
+R7.17-1	amod Arg1:T7.19 Arg2:T7.17
+#7.17	AnnotatorNotes T7.17	LEMMA=западный POSTAG=_
+T7.18	ADJ 823 833	индийского
+A7.18-1	Case T7.18 Gen
+A7.18-2	Gender T7.18 Masc
+A7.18-3	Number T7.18 Sing
+A7.18-4	Degree T7.18 Pos
+R7.18-1	amod Arg1:T7.19 Arg2:T7.18
+#7.18	AnnotatorNotes T7.18	LEMMA=индийский POSTAG=_
+T7.19	NOUN 834 839	штата
+A7.19-1	Case T7.19 Gen
+A7.19-2	Gender T7.19 Masc
+A7.19-3	Animacy T7.19 Inan
+A7.19-4	Number T7.19 Sing
+R7.19-1	nmod Arg1:T7.15 Arg2:T7.19
+#7.19	AnnotatorNotes T7.19	LEMMA=штат POSTAG=_
+T7.20	PROPN 840 849	Раджастан
+A7.20-1	Case T7.20 Nom
+A7.20-2	Gender T7.20 Masc
+A7.20-3	Animacy T7.20 Inan
+A7.20-4	Number T7.20 Sing
+R7.20-1	appos Arg1:T7.19 Arg2:T7.20
+#7.20	AnnotatorNotes T7.20	LEMMA=Раджастан POSTAG=_
+T7.21	PUNCT 850 851	,
+R7.21-1	punct Arg1:T7.20 Arg2:T7.21
+#7.21	AnnotatorNotes T7.21	LEMMA=, POSTAG=_
+T7.22	AUX 852 856	было
+A7.22-1	VerbForm T7.22 Fin
+A7.22-2	Gender T7.22 Neut
+A7.22-3	Number T7.22 Sing
+A7.22-4	Tense T7.22 Past
+A7.22-5	Aspect T7.22 Imp
+A7.22-6	Voice T7.22 Act
+A7.22-7	Mood T7.22 Ind
+R7.22-1	aux_pass Arg1:T7.23 Arg2:T7.22
+#7.22	AnnotatorNotes T7.22	LEMMA=быть POSTAG=_
+T7.23	VERB 857 864	найдено
+A7.23-1	VerbForm T7.23 Part
+A7.23-2	Gender T7.23 Neut
+A7.23-3	Variant T7.23 Short
+A7.23-4	Number T7.23 Sing
+A7.23-5	Tense T7.23 Past
+A7.23-6	Aspect T7.23 Perf
+A7.23-7	Voice T7.23 Pass
+R7.23-1	advcl Arg1:T7.7 Arg2:T7.23
+#7.23	AnnotatorNotes T7.23	LEMMA=находить POSTAG=_
+T7.24	VERB 865 878	разложившимся
+A7.24-1	VerbForm T7.24 Fin
+A7.24-2	Number T7.24 Plur
+A7.24-3	Person T7.24 1
+A7.24-4	Tense T7.24 Pres
+A7.24-5	Aspect T7.24 Imp
+A7.24-6	Voice T7.24 Mid
+A7.24-7	Mood T7.24 Ind
+R7.24-1	acl Arg1:T7.23 Arg2:T7.24
+#7.24	AnnotatorNotes T7.24	LEMMA=разложившиться POSTAG=_
+T7.25	ADP 879 880	в
+R7.25-1	case Arg1:T7.26 Arg2:T7.25
+#7.25	AnnotatorNotes T7.25	LEMMA=в POSTAG=_
+T7.26	NOUN 881 888	пятницу
+A7.26-1	Case T7.26 Acc
+A7.26-2	Gender T7.26 Fem
+A7.26-3	Animacy T7.26 Inan
+A7.26-4	Number T7.26 Sing
+R7.26-1	obl Arg1:T7.24 Arg2:T7.26
+#7.26	AnnotatorNotes T7.26	LEMMA=пятница POSTAG=_
+T7.27	PUNCT 889 890	.
+R7.27-1	punct Arg1:T7.26 Arg2:T7.27
+#7.27	AnnotatorNotes T7.27	LEMMA=. POSTAG=_
+T8.1	ADV 891 894	Еще
+A8.1-1	Degree T8.1 Pos
+R8.1-1	advmod Arg1:T8.2 Arg2:T8.1
+#8.1	AnnotatorNotes T8.1	LEMMA=еще POSTAG=_
+T8.2	NUM 895 898	два
+A8.2-1	Case T8.2 Nom
+A8.2-2	Gender T8.2 Masc
+R8.2-1	nummod_gov Arg1:T8.4 Arg2:T8.2
+#8.2	AnnotatorNotes T8.2	LEMMA=два POSTAG=_
+T8.3	ADJ 899 908	индийских
+A8.3-1	Case T8.3 Gen
+A8.3-2	Number T8.3 Plur
+A8.3-3	Degree T8.3 Pos
+R8.3-1	amod Arg1:T8.4 Arg2:T8.3
+#8.3	AnnotatorNotes T8.3	LEMMA=индийский POSTAG=_
+T8.4	NOUN 909 916	рабочих
+A8.4-1	Case T8.4 Gen
+A8.4-2	Gender T8.4 Masc
+A8.4-3	Animacy T8.4 Anim
+A8.4-4	Number T8.4 Plur
+R8.4-1	nsubj Arg1:T8.8 Arg2:T8.4
+#8.4	AnnotatorNotes T8.4	LEMMA=рабочий POSTAG=_
+T8.5	ADP 917 919	до
+R8.5-1	advmod Arg1:T8.8 Arg2:T8.5
+#8.5	AnnotatorNotes T8.5	LEMMA=до POSTAG=_
+T8.6	DET 920 923	сих
+A8.6-1	Case T8.6 Gen
+A8.6-2	Number T8.6 Plur
+R8.6-1	fixed Arg1:T8.5 Arg2:T8.6
+#8.6	AnnotatorNotes T8.6	LEMMA=сей POSTAG=_
+T8.7	NOUN 924 927	пор
+A8.7-1	Case T8.7 Gen
+A8.7-2	Gender T8.7 Fem
+A8.7-3	Animacy T8.7 Inan
+A8.7-4	Number T8.7 Plur
+R8.7-1	fixed Arg1:T8.6 Arg2:T8.7
+#8.7	AnnotatorNotes T8.7	LEMMA=пора POSTAG=_
+T8.8	VERB 928 936	числятся
+A8.8-1	VerbForm T8.8 Fin
+A8.8-2	Number T8.8 Plur
+A8.8-3	Person T8.8 3
+A8.8-4	Tense T8.8 Pres
+A8.8-5	Aspect T8.8 Imp
+A8.8-6	Voice T8.8 Mid
+A8.8-7	Mood T8.8 Ind
+#8.8	AnnotatorNotes T8.8	LEMMA=числиться POSTAG=_
+T8.9	VERB 937 947	пропавшими
+A8.9-1	Case T8.9 Ins
+A8.9-2	VerbForm T8.9 Part
+A8.9-3	Number T8.9 Plur
+A8.9-4	Tense T8.9 Past
+A8.9-5	Aspect T8.9 Perf
+A8.9-6	Voice T8.9 Act
+R8.9-1	amod Arg1:T8.8 Arg2:T8.9
+#8.9	AnnotatorNotes T8.9	LEMMA=пропадать POSTAG=_
+T8.10	ADP 948 951	без
+R8.10-1	case Arg1:T8.11 Arg2:T8.10
+#8.10	AnnotatorNotes T8.10	LEMMA=без POSTAG=_
+T8.11	NOUN 952 957	вести
+A8.11-1	Case T8.11 Gen
+A8.11-2	Gender T8.11 Fem
+A8.11-3	Animacy T8.11 Inan
+A8.11-4	Number T8.11 Sing
+R8.11-1	obl Arg1:T8.9 Arg2:T8.11
+#8.11	AnnotatorNotes T8.11	LEMMA=весть POSTAG=_
+T8.12	ADP 958 963	после
+R8.12-1	case Arg1:T8.13 Arg2:T8.12
+#8.12	AnnotatorNotes T8.12	LEMMA=после POSTAG=_
+T8.13	PRON 964 968	того
+A8.13-1	Case T8.13 Gen
+A8.13-2	Gender T8.13 Neut
+A8.13-3	Animacy T8.13 Inan
+A8.13-4	Number T8.13 Sing
+R8.13-1	obl Arg1:T8.9 Arg2:T8.13
+#8.13	AnnotatorNotes T8.13	LEMMA=то POSTAG=_
+T8.14	PUNCT 969 970	,
+R8.14-1	punct Arg1:T8.13 Arg2:T8.14
+#8.14	AnnotatorNotes T8.14	LEMMA=, POSTAG=_
+T8.15	SCONJ 971 974	как
+R8.15-1	mark Arg1:T8.13 Arg2:T8.15
+#8.15	AnnotatorNotes T8.15	LEMMA=как POSTAG=_
+T8.16	NOUN 975 983	грузовик
+A8.16-1	Case T8.16 Nom
+A8.16-2	Gender T8.16 Masc
+A8.16-3	Animacy T8.16 Inan
+A8.16-4	Number T8.16 Sing
+R8.16-1	nsubj Arg1:T8.19 Arg2:T8.16
+#8.16	AnnotatorNotes T8.16	LEMMA=грузовик POSTAG=_
+T8.17	PROPN 984 989	Чояла
+A8.17-1	Case T8.17 Gen
+A8.17-2	Gender T8.17 Masc
+A8.17-3	Animacy T8.17 Anim
+A8.17-4	Number T8.17 Sing
+R8.17-1	nmod Arg1:T8.16 Arg2:T8.17
+#8.17	AnnotatorNotes T8.17	LEMMA=Чоял POSTAG=_
+T8.18	AUX 990 995	смыло
+A8.18-1	VerbForm T8.18 Fin
+A8.18-2	Gender T8.18 Neut
+A8.18-3	Number T8.18 Sing
+A8.18-4	Tense T8.18 Past
+A8.18-5	Aspect T8.18 Imp
+A8.18-6	Voice T8.18 Act
+A8.18-7	Mood T8.18 Ind
+R8.18-1	cop Arg1:T8.19 Arg2:T8.18
+#8.18	AnnotatorNotes T8.18	LEMMA=мыть POSTAG=_
+T8.19	NOUN 996 1003	потоком
+A8.19-1	Case T8.19 Ins
+A8.19-2	Gender T8.19 Masc
+A8.19-3	Animacy T8.19 Inan
+A8.19-4	Number T8.19 Sing
+R8.19-1	advcl Arg1:T8.13 Arg2:T8.19
+#8.19	AnnotatorNotes T8.19	LEMMA=поток POSTAG=_
+T8.20	ADP 1004 1005	в
+R8.20-1	case Arg1:T8.21 Arg2:T8.20
+#8.20	AnnotatorNotes T8.20	LEMMA=в POSTAG=_
+T8.21	NOUN 1006 1017	понедельник
+A8.21-1	Case T8.21 Acc
+A8.21-2	Gender T8.21 Masc
+A8.21-3	Animacy T8.21 Inan
+A8.21-4	Number T8.21 Sing
+R8.21-1	nmod Arg1:T8.19 Arg2:T8.21
+#8.21	AnnotatorNotes T8.21	LEMMA=понедельник POSTAG=_
+T8.22	ADP 1018 1019	в
+R8.22-1	case Arg1:T8.23 Arg2:T8.22
+#8.22	AnnotatorNotes T8.22	LEMMA=в POSTAG=_
+T8.23	NOUN 1020 1027	столице
+A8.23-1	Case T8.23 Loc
+A8.23-2	Gender T8.23 Fem
+A8.23-3	Animacy T8.23 Inan
+A8.23-4	Number T8.23 Sing
+R8.23-1	nmod Arg1:T8.19 Arg2:T8.23
+#8.23	AnnotatorNotes T8.23	LEMMA=столица POSTAG=_
+T8.24	PROPN 1028 1033	Омана
+A8.24-1	Case T8.24 Gen
+A8.24-2	Gender T8.24 Masc
+A8.24-3	Animacy T8.24 Inan
+A8.24-4	Number T8.24 Sing
+R8.24-1	nmod Arg1:T8.23 Arg2:T8.24
+#8.24	AnnotatorNotes T8.24	LEMMA=оман POSTAG=_
+T8.25	PUNCT 1034 1035	,
+R8.25-1	punct Arg1:T8.24 Arg2:T8.25
+#8.25	AnnotatorNotes T8.25	LEMMA=, POSTAG=_
+T8.26	PROPN 1036 1043	Маскате
+A8.26-1	Case T8.26 Nom
+A8.26-2	Gender T8.26 Neut
+A8.26-3	Animacy T8.26 Inan
+A8.26-4	Number T8.26 Sing
+R8.26-1	parataxis Arg1:T8.19 Arg2:T8.26
+#8.26	AnnotatorNotes T8.26	LEMMA=Маскате POSTAG=_
+T8.27	PUNCT 1044 1045	.
+R8.27-1	punct Arg1:T8.26 Arg2:T8.27
+#8.27	AnnotatorNotes T8.27	LEMMA=. POSTAG=_
+T9.1	ADP 1046 1047	В
+R9.1-1	case Arg1:T9.2 Arg2:T9.1
+#9.1	AnnotatorNotes T9.1	LEMMA=в POSTAG=_
+T9.2	NOUN 1048 1053	среду
+A9.2-1	Case T9.2 Acc
+A9.2-2	Gender T9.2 Fem
+A9.2-3	Animacy T9.2 Inan
+A9.2-4	Number T9.2 Sing
+R9.2-1	obl Arg1:T9.4 Arg2:T9.2
+#9.2	AnnotatorNotes T9.2	LEMMA=среда POSTAG=_
+T9.3	NOUN 1054 1061	полиция
+A9.3-1	Case T9.3 Nom
+A9.3-2	Gender T9.3 Fem
+A9.3-3	Animacy T9.3 Inan
+A9.3-4	Number T9.3 Sing
+R9.3-1	nsubj Arg1:T9.4 Arg2:T9.3
+#9.3	AnnotatorNotes T9.3	LEMMA=полиция POSTAG=_
+T9.4	VERB 1062 1070	сообщила
+A9.4-1	VerbForm T9.4 Fin
+A9.4-2	Gender T9.4 Fem
+A9.4-3	Number T9.4 Sing
+A9.4-4	Tense T9.4 Past
+A9.4-5	Aspect T9.4 Perf
+A9.4-6	Voice T9.4 Act
+A9.4-7	Mood T9.4 Ind
+#9.4	AnnotatorNotes T9.4	LEMMA=сообщать POSTAG=_
+T9.5	ADP 1071 1072	о
+R9.5-1	case Arg1:T9.7 Arg2:T9.5
+#9.5	AnnotatorNotes T9.5	LEMMA=о POSTAG=_
+T9.6	NUM 1073 1075	16
+R9.6-1	nummod Arg1:T9.7 Arg2:T9.6
+#9.6	AnnotatorNotes T9.6	LEMMA=16 POSTAG=_
+T9.7	NOUN 1076 1082	трупах
+A9.7-1	Case T9.7 Loc
+A9.7-2	Gender T9.7 Masc
+A9.7-3	Animacy T9.7 Inan
+A9.7-4	Number T9.7 Plur
+R9.7-1	obl Arg1:T9.4 Arg2:T9.7
+#9.7	AnnotatorNotes T9.7	LEMMA=труп POSTAG=_
+T9.8	PUNCT 1083 1084	,
+R9.8-1	punct Arg1:T9.7 Arg2:T9.8
+#9.8	AnnotatorNotes T9.8	LEMMA=, POSTAG=_
+T9.9	VERB 1085 1097	обнаруженных
+A9.9-1	Case T9.9 Gen
+A9.9-2	VerbForm T9.9 Part
+A9.9-3	Number T9.9 Plur
+A9.9-4	Tense T9.9 Past
+A9.9-5	Aspect T9.9 Perf
+A9.9-6	Voice T9.9 Pass
+R9.9-1	amod Arg1:T9.7 Arg2:T9.9
+#9.9	AnnotatorNotes T9.9	LEMMA=обнаруживать POSTAG=_
+T9.10	ADP 1098 1100	за
+R9.10-1	case Arg1:T9.12 Arg2:T9.10
+#9.10	AnnotatorNotes T9.10	LEMMA=за POSTAG=_
+T9.11	NUM 1101 1104	два
+A9.11-1	Case T9.11 Acc
+A9.11-2	Gender T9.11 Masc
+A9.11-3	Animacy T9.11 Inan
+R9.11-1	nummod_gov Arg1:T9.12 Arg2:T9.11
+#9.11	AnnotatorNotes T9.11	LEMMA=два POSTAG=_
+T9.12	NOUN 1105 1108	дня
+A9.12-1	Case T9.12 Gen
+A9.12-2	Gender T9.12 Masc
+A9.12-3	Animacy T9.12 Inan
+A9.12-4	Number T9.12 Sing
+R9.12-1	obl Arg1:T9.9 Arg2:T9.12
+#9.12	AnnotatorNotes T9.12	LEMMA=день POSTAG=_
+T9.13	VERB 1109 1125	непрекращающихся
+A9.13-1	Case T9.13 Gen
+A9.13-2	VerbForm T9.13 Part
+A9.13-3	Number T9.13 Plur
+A9.13-4	Tense T9.13 Pres
+A9.13-5	Aspect T9.13 Imp
+A9.13-6	Voice T9.13 Mid
+R9.13-1	amod Arg1:T9.14 Arg2:T9.13
+#9.13	AnnotatorNotes T9.13	LEMMA=непрекращаться POSTAG=_
+T9.14	NOUN 1126 1132	дождей
+A9.14-1	Case T9.14 Gen
+A9.14-2	Gender T9.14 Masc
+A9.14-3	Animacy T9.14 Inan
+A9.14-4	Number T9.14 Plur
+R9.14-1	nmod Arg1:T9.12 Arg2:T9.14
+#9.14	AnnotatorNotes T9.14	LEMMA=дождь POSTAG=_
+T9.15	PUNCT 1133 1134	.
+R9.15-1	punct Arg1:T9.14 Arg2:T9.15
+#9.15	AnnotatorNotes T9.15	LEMMA=. POSTAG=_
+T10.1	ADP 1135 1136	В
+R10.1-1	case Arg1:T10.2 Arg2:T10.1
+#10.1	AnnotatorNotes T10.1	LEMMA=в POSTAG=_
+T10.2	NOUN 1137 1144	субботу
+A10.2-1	Case T10.2 Acc
+A10.2-2	Gender T10.2 Fem
+A10.2-3	Animacy T10.2 Inan
+A10.2-4	Number T10.2 Sing
+R10.2-1	obl Arg1:T10.4 Arg2:T10.2
+#10.2	AnnotatorNotes T10.2	LEMMA=суббота POSTAG=_
+T10.3	NOUN 1145 1151	осадки
+A10.3-1	Case T10.3 Nom
+A10.3-2	Gender T10.3 Fem
+A10.3-3	Animacy T10.3 Inan
+A10.3-4	Number T10.3 Plur
+R10.3-1	nsubj Arg1:T10.4 Arg2:T10.3
+#10.3	AnnotatorNotes T10.3	LEMMA=осадки POSTAG=_
+T10.4	VERB 1152 1164	прекратились
+A10.4-1	VerbForm T10.4 Fin
+A10.4-2	Number T10.4 Plur
+A10.4-3	Tense T10.4 Past
+A10.4-4	Aspect T10.4 Perf
+A10.4-5	Voice T10.4 Mid
+A10.4-6	Mood T10.4 Ind
+#10.4	AnnotatorNotes T10.4	LEMMA=прекращаться POSTAG=_
+T10.5	PUNCT 1165 1166	,
+R10.5-1	punct Arg1:T10.4 Arg2:T10.5
+#10.5	AnnotatorNotes T10.5	LEMMA=, POSTAG=_
+T10.6	VERB 1167 1176	выглянуло
+A10.6-1	VerbForm T10.6 Fin
+A10.6-2	Gender T10.6 Neut
+A10.6-3	Number T10.6 Sing
+A10.6-4	Tense T10.6 Past
+A10.6-5	Aspect T10.6 Perf
+A10.6-6	Voice T10.6 Act
+A10.6-7	Mood T10.6 Ind
+R10.6-1	conj Arg1:T10.4 Arg2:T10.6
+#10.6	AnnotatorNotes T10.6	LEMMA=выглянуть POSTAG=_
+T10.7	NOUN 1177 1183	солнце
+A10.7-1	Case T10.7 Nom
+A10.7-2	Gender T10.7 Neut
+A10.7-3	Animacy T10.7 Inan
+A10.7-4	Number T10.7 Sing
+R10.7-1	nsubj Arg1:T10.6 Arg2:T10.7
+#10.7	AnnotatorNotes T10.7	LEMMA=солнце POSTAG=_
+T10.8	CCONJ 1184 1185	и
+R10.8-1	cc Arg1:T10.12 Arg2:T10.8
+#10.8	AnnotatorNotes T10.8	LEMMA=и POSTAG=_
+T10.9	NOUN 1186 1194	движение
+A10.9-1	Case T10.9 Nom
+A10.9-2	Gender T10.9 Neut
+A10.9-3	Animacy T10.9 Inan
+A10.9-4	Number T10.9 Sing
+R10.9-1	nsubj Arg1:T10.12 Arg2:T10.9
+#10.9	AnnotatorNotes T10.9	LEMMA=движение POSTAG=_
+T10.10	ADP 1195 1196	в
+R10.10-1	case Arg1:T10.11 Arg2:T10.10
+#10.10	AnnotatorNotes T10.10	LEMMA=в POSTAG=_
+T10.11	NOUN 1197 1204	столице
+A10.11-1	Case T10.11 Loc
+A10.11-2	Gender T10.11 Fem
+A10.11-3	Animacy T10.11 Inan
+A10.11-4	Number T10.11 Sing
+R10.11-1	nmod Arg1:T10.9 Arg2:T10.11
+#10.11	AnnotatorNotes T10.11	LEMMA=столица POSTAG=_
+T10.12	VERB 1205 1218	возобновилось
+A10.12-1	VerbForm T10.12 Fin
+A10.12-2	Gender T10.12 Neut
+A10.12-3	Number T10.12 Sing
+A10.12-4	Tense T10.12 Past
+A10.12-5	Aspect T10.12 Perf
+A10.12-6	Voice T10.12 Mid
+A10.12-7	Mood T10.12 Ind
+R10.12-1	conj Arg1:T10.4 Arg2:T10.12
+#10.12	AnnotatorNotes T10.12	LEMMA=возобновляться POSTAG=_
+T10.13	PUNCT 1219 1220	.
+R10.13-1	punct Arg1:T10.12 Arg2:T10.13
+#10.13	AnnotatorNotes T10.13	LEMMA=. POSTAG=_
+T11.1	PUNCT 1221 1222	«
+R11.1-1	punct Arg1:T11.2 Arg2:T11.1
+#11.1	AnnotatorNotes T11.1	LEMMA=« POSTAG=_
+T11.2	ADV 1223 1229	Похоже
+A11.2-1	Degree T11.2 Pos
+R11.2-1	parataxis Arg1:T11.13 Arg2:T11.2
+#11.2	AnnotatorNotes T11.2	LEMMA=похоже POSTAG=_
+T11.3	PUNCT 1230 1231	,
+R11.3-1	punct Arg1:T11.2 Arg2:T11.3
+#11.3	AnnotatorNotes T11.3	LEMMA=, POSTAG=_
+T11.4	NOUN 1232 1237	дожди
+A11.4-1	Case T11.4 Nom
+A11.4-2	Gender T11.4 Masc
+A11.4-3	Animacy T11.4 Inan
+A11.4-4	Number T11.4 Plur
+R11.4-1	nsubj Arg1:T11.13 Arg2:T11.4
+#11.4	AnnotatorNotes T11.4	LEMMA=дождь POSTAG=_
+T11.5	PUNCT 1238 1239	,
+R11.5-1	punct Arg1:T11.4 Arg2:T11.5
+#11.5	AnnotatorNotes T11.5	LEMMA=, POSTAG=_
+T11.6	VERB 1240 1252	обрушившиеся
+A11.6-1	Case T11.6 Nom
+A11.6-2	VerbForm T11.6 Part
+A11.6-3	Number T11.6 Plur
+A11.6-4	Tense T11.6 Past
+A11.6-5	Aspect T11.6 Perf
+A11.6-6	Voice T11.6 Mid
+R11.6-1	amod Arg1:T11.4 Arg2:T11.6
+#11.6	AnnotatorNotes T11.6	LEMMA=обрушиваться POSTAG=_
+T11.7	ADP 1253 1255	на
+R11.7-1	case Arg1:T11.8 Arg2:T11.7
+#11.7	AnnotatorNotes T11.7	LEMMA=на POSTAG=_
+T11.8	PRON 1256 1259	нас
+A11.8-1	Case T11.8 Acc
+A11.8-2	Person T11.8 1
+A11.8-3	Number T11.8 Plur
+R11.8-1	obl Arg1:T11.6 Arg2:T11.8
+#11.8	AnnotatorNotes T11.8	LEMMA=мы POSTAG=_
+T11.9	ADP 1260 1261	в
+R11.9-1	case Arg1:T11.10 Arg2:T11.9
+#11.9	AnnotatorNotes T11.9	LEMMA=в POSTAG=_
+T11.10	NOUN 1262 1273	понедельник
+A11.10-1	Case T11.10 Acc
+A11.10-2	Gender T11.10 Masc
+A11.10-3	Animacy T11.10 Inan
+A11.10-4	Number T11.10 Sing
+R11.10-1	obl Arg1:T11.6 Arg2:T11.10
+#11.10	AnnotatorNotes T11.10	LEMMA=понедельник POSTAG=_
+T11.11	PUNCT 1274 1275	,
+R11.11-1	punct Arg1:T11.10 Arg2:T11.11
+#11.11	AnnotatorNotes T11.11	LEMMA=, POSTAG=_
+T11.12	ADV 1276 1286	наконец-то
+A11.12-1	Degree T11.12 Pos
+R11.12-1	advmod Arg1:T11.13 Arg2:T11.12
+#11.12	AnnotatorNotes T11.12	LEMMA=наконец-то POSTAG=_
+T11.13	VERB 1287 1298	закончились
+A11.13-1	VerbForm T11.13 Fin
+A11.13-2	Number T11.13 Plur
+A11.13-3	Tense T11.13 Past
+A11.13-4	Aspect T11.13 Perf
+A11.13-5	Voice T11.13 Mid
+A11.13-6	Mood T11.13 Ind
+#11.13	AnnotatorNotes T11.13	LEMMA=заканчиваться POSTAG=_
+T11.14	PUNCT 1299 1300	»
+R11.14-1	punct Arg1:T11.13 Arg2:T11.14
+#11.14	AnnotatorNotes T11.14	LEMMA=» POSTAG=_
+T11.15	PUNCT 1301 1302	,
+R11.15-1	punct Arg1:T11.13 Arg2:T11.15
+#11.15	AnnotatorNotes T11.15	LEMMA=, POSTAG=_
+T11.16	PUNCT 1303 1304	—
+R11.16-1	punct Arg1:T11.13 Arg2:T11.16
+#11.16	AnnotatorNotes T11.16	LEMMA=— POSTAG=_
+T11.17	VERB 1305 1311	сказал
+A11.17-1	VerbForm T11.17 Fin
+A11.17-2	Gender T11.17 Masc
+A11.17-3	Number T11.17 Sing
+A11.17-4	Tense T11.17 Past
+A11.17-5	Aspect T11.17 Perf
+A11.17-6	Voice T11.17 Act
+A11.17-7	Mood T11.17 Ind
+R11.17-1	parataxis Arg1:T11.13 Arg2:T11.17
+#11.17	AnnotatorNotes T11.17	LEMMA=сказать POSTAG=_
+T11.18	NOUN 1312 1321	сотрудник
+A11.18-1	Case T11.18 Nom
+A11.18-2	Gender T11.18 Masc
+A11.18-3	Animacy T11.18 Anim
+A11.18-4	Number T11.18 Sing
+R11.18-1	nsubj Arg1:T11.17 Arg2:T11.18
+#11.18	AnnotatorNotes T11.18	LEMMA=сотрудник POSTAG=_
+T11.19	ADJ 1322 1339	метеорологической
+A11.19-1	Case T11.19 Gen
+A11.19-2	Gender T11.19 Fem
+A11.19-3	Number T11.19 Sing
+A11.19-4	Degree T11.19 Pos
+R11.19-1	amod Arg1:T11.20 Arg2:T11.19
+#11.19	AnnotatorNotes T11.19	LEMMA=метеорологический POSTAG=_
+T11.20	NOUN 1340 1346	службы
+A11.20-1	Case T11.20 Gen
+A11.20-2	Gender T11.20 Fem
+A11.20-3	Animacy T11.20 Inan
+A11.20-4	Number T11.20 Sing
+R11.20-1	nmod Arg1:T11.18 Arg2:T11.20
+#11.20	AnnotatorNotes T11.20	LEMMA=служба POSTAG=_
+T11.21	PUNCT 1347 1348	.
+R11.21-1	punct Arg1:T11.20 Arg2:T11.21
+#11.21	AnnotatorNotes T11.21	LEMMA=. POSTAG=_
+T1	Predicate 11 18	погибли
+#1	AnnotatorNotes T1	гибнуть.01
+T2	ARG1 3 10	человек
+T5	Predicate 81 88	сообщил
+#2	AnnotatorNotes T5	сообщаться.01
+T6	ARG0 101 114	представитель
+T7	Predicate 189 196	погибли
+#3	AnnotatorNotes T7	гибнуть.01
+T8	Predicate 296 308	Объединенных
+#4	AnnotatorNotes T8	объединить.01
+T10	Predicate 398 405	погибла
+#6	AnnotatorNotes T10	гибнуть.01
+T11	Predicate 444 455	переполнили
+#7	AnnotatorNotes T11	переполнить.01
+T12	Predicate 513 523	обнаружили
+#8	AnnotatorNotes T12	обнаружить.01
+T13	Predicate 551 557	сказал
+T14	Predicate 644 650	унесла
+#9	AnnotatorNotes T14	унести.02
+T15	Predicate 756 766	утверждает
+#10	AnnotatorNotes T15	утверждать.01
+T16	Predicate 857 864	найдено
+#11	AnnotatorNotes T16	найти.01
+T17	Predicate 865 878	разложившимся
+#12	AnnotatorNotes T17	разложить.03
+T18	Predicate 928 936	числятся
+#13	AnnotatorNotes T18	числиться.01
+T19	Predicate 1062 1070	сообщила
+#14	AnnotatorNotes T19	сообщаться.01
+T20	Predicate 937 947	пропавшими
+#15	AnnotatorNotes T20	пропасть.01
+T21	Predicate 1085 1097	обнаруженных
+#16	AnnotatorNotes T21	обнаружить.01
+T22	Predicate 1152 1164	прекратились
+#17	AnnotatorNotes T22	прекратиться.01
+T23	Predicate 1167 1176	выглянуло
+T25	Predicate 1240 1252	обрушившиеся
+#19	AnnotatorNotes T25	обрушиться.02
+T26	Predicate 1287 1298	закончились
+#20	AnnotatorNotes T26	закончить.01
+T27	Predicate 1305 1311	сказал
+T28	ARGM-TMP 143 150	субботу
+T30	Predicate 352 358	унесен
+#22	AnnotatorNotes T30	унести.01
+T9	ARG1 206 213	человек
+T31	ARG1 318 326	Эмиратов
+T32	ARG1 329 339	автомобиль
+T33	ARG0 366 373	потоком
+T34	ARG1 376 381	Семья
+T35	ARG1 431 436	русло
+T37	ARGM-LOC 470 477	Вилаяте
+T38	ARG0 510 512	Мы
+T39	ARG1 538 544	трупов
+T40	ARG0 637 643	стихия
+T41	ARG1 651 656	жизни
+T42	ARG2 662 669	граждан
+T43	ARG2 686 693	граждан
+T44	ARG0 740 749	Бхупиндер
+T45	ARG1 773 777	тело
+T46	ARGM-TMP 881 888	пятницу
+T50	ARG1 1145 1151	осадки
+T51	Predicate 1205 1218	возобновилось
+T52	ARG1 1186 1194	движение
+T53	ARG0 1232 1237	дожди
+T54	ARG1 1256 1259	нас
+T55	ARG1 1232 1237	дожди
+T48	ARG2 937 947	пропавшими
+#5	AnnotatorNotes T51	возобновиться.01
+T24	ARG1 189 196	погибли
+T56	ARGM-LOC 183 188	Омане
+T57	ARG0 1054 1061	полиция
+T58	ARG1 1076 1082	трупах
+T49	ARGM-LOC 1197 1204	столице
+T66	ARG0 456 462	потоки
+T36	ARGM-LOC 480 488	недалеко
+T47	ARGM-PRD 952 957	вести
+T78	ARGM-TMP 1048 1053	среду
+T79	ARGM-TMP 964 968	того
+T80	ARGM-TMP 1137 1144	субботу
+T81	ARGM-TMP 1262 1273	понедельник
+T89	ARGM-LOC 526 532	машине
+T90	ARGM-TMP 1105 1108	дня
+T91	ARGM-LOC 1020 1027	столице
+T93	ARGM-TMP 1006 1017	понедельник
+T3	ARGM-CAU 43 49	дождей
+T59	ARGM-LOC 52 57	Омане
+R1	sem Arg1:T2 Arg2:T1	
+R2	sem Arg1:T3 Arg2:T1	
+R3	sem Arg1:T59 Arg2:T1	
+R4	sem Arg1:T6 Arg2:T5	
+R5	sem Arg1:T28 Arg2:T5	
+T4	ARGM-CAU 174 180	дождей
+R6	sem Arg1:T24 Arg2:T5	
+R7	sem Arg1:T4 Arg2:T7	
+R8	sem Arg1:T56 Arg2:T7	
+R9	sem Arg1:T9 Arg2:T7	
+R10	sem Arg1:T31 Arg2:T8	
+R11	sem Arg1:T32 Arg2:T30	
+R12	sem Arg1:T33 Arg2:T30	
+R13	sem Arg1:T34 Arg2:T10	
+T29	ARGM-TMP 444 455	переполнили
+R14	sem Arg1:T29 Arg2:T10	
+R15	sem Arg1:T35 Arg2:T11	
+R16	sem Arg1:T66 Arg2:T11	
+R17	sem Arg1:T37 Arg2:T11	
+R18	sem Arg1:T36 Arg2:T11	
+R19	sem Arg1:T38 Arg2:T12	
+R20	sem Arg1:T89 Arg2:T12	
+R21	sem Arg1:T39 Arg2:T12	
+#18	AnnotatorNotes T13	сказать.01
+T60	ARG1 513 523	обнаружили
+R22	sem Arg1:T60 Arg2:T13	
+T61	ARG0 558 571	представитель
+R23	sem Arg1:T61 Arg2:T13	
+R24	sem Arg1:T40 Arg2:T14	
+R25	sem Arg1:T41 Arg2:T14	
+R26	sem Arg1:T42 Arg2:T14	
+R27	sem Arg1:T43 Arg2:T14	
+R28	sem Arg1:T44 Arg2:T15	
+T62	ARG1 857 864	найдено
+R29	sem Arg1:T45 Arg2:T16	
+R30	sem Arg1:T62 Arg2:T15	
+T63	ARGM-PRD 865 878	разложившимся
+R31	sem Arg1:T63 Arg2:T16	
+R32	sem Arg1:T46 Arg2:T16	
+T64	ARGM-TMP 924 927	пор
+R33	sem Arg1:T64 Arg2:T18	
+T65	ARG1 909 916	рабочих
+R34	sem Arg1:T65 Arg2:T18	
+R35	sem Arg1:T48 Arg2:T18	
+R36	sem Arg1:T47 Arg2:T20	
+R37	sem Arg1:T79 Arg2:T18	
+T67	ARG1 975 983	грузовик
+T68	Predicate 990 995	смыло
+#21	AnnotatorNotes T68	смываться.02
+R38	sem Arg1:T67 Arg2:T68	
+T69	ARG0 996 1003	потоком
+R39	sem Arg1:T69 Arg2:T68	
+R40	sem Arg1:T93 Arg2:T68	
+R41	sem Arg1:T91 Arg2:T68	
+R42	sem Arg1:T78 Arg2:T19	
+R43	sem Arg1:T57 Arg2:T19	
+R44	sem Arg1:T58 Arg2:T19	
+T70	ARG1 1076 1082	трупах
+R45	sem Arg1:T70 Arg2:T21	
+R46	sem Arg1:T90 Arg2:T21	
+R47	sem Arg1:T80 Arg2:T22	
+R48	sem Arg1:T50 Arg2:T22	
+R49	sem Arg1:T52 Arg2:T23	
+R50	sem Arg1:T49 Arg2:T51	
+R51	sem Arg1:T52 Arg2:T51	
+R52	sem Arg1:T53 Arg2:T25	
+R53	sem Arg1:T55 Arg2:T26	
+R54	sem Arg1:T54 Arg2:T25	
+R55	sem Arg1:T81 Arg2:T25	
+T71	ARGM-TMP 1276 1286	наконец-то
+R56	sem Arg1:T71 Arg2:T26	
+T72	ARG1 1287 1298	закончились
+R57	sem Arg1:T72 Arg2:T27	
+#23	AnnotatorNotes T27	сказать.01
+T73	ARG0 1312 1321	сотрудник
+R58	sem Arg1:T73 Arg2:T27	

@@ -1,0 +1,201 @@
+T1.1	ADP 0 2	По
+R1.1-1	case Arg1:T1.3 Arg2:T1.1
+#1.1	AnnotatorNotes T1.1	LEMMA=по POSTAG=_
+T1.2	ADJ 3 12	последним
+A1.2-1	Case T1.2 Dat
+A1.2-2	Number T1.2 Plur
+A1.2-3	Degree T1.2 Pos
+R1.2-1	amod Arg1:T1.3 Arg2:T1.2
+#1.2	AnnotatorNotes T1.2	LEMMA=последний POSTAG=_
+T1.3	NOUN 13 19	данным
+A1.3-1	Case T1.3 Dat
+A1.3-2	Animacy T1.3 Inan
+A1.3-3	Number T1.3 Plur
+R1.3-1	parataxis Arg1:T1.14 Arg2:T1.3
+#1.3	AnnotatorNotes T1.3	LEMMA=данные POSTAG=_
+T1.4	PUNCT 20 21	,
+R1.4-1	punct Arg1:T1.3 Arg2:T1.4
+#1.4	AnnotatorNotes T1.4	LEMMA=, POSTAG=_
+T1.5	VERB 22 36	опубликованным
+A1.5-1	Case T1.5 Dat
+A1.5-2	VerbForm T1.5 Part
+A1.5-3	Number T1.5 Plur
+A1.5-4	Tense T1.5 Past
+A1.5-5	Aspect T1.5 Perf
+A1.5-6	Voice T1.5 Pass
+R1.5-1	amod Arg1:T1.3 Arg2:T1.5
+#1.5	AnnotatorNotes T1.5	LEMMA=опубликовывать POSTAG=_
+T1.6	ADP 37 38	в
+R1.6-1	case Arg1:T1.7 Arg2:T1.6
+#1.6	AnnotatorNotes T1.6	LEMMA=в POSTAG=_
+T1.7	NOUN 39 46	пятницу
+A1.7-1	Case T1.7 Acc
+A1.7-2	Gender T1.7 Fem
+A1.7-3	Animacy T1.7 Inan
+A1.7-4	Number T1.7 Sing
+R1.7-1	obl Arg1:T1.5 Arg2:T1.7
+#1.7	AnnotatorNotes T1.7	LEMMA=пятница POSTAG=_
+T1.8	NOUN 47 54	вечером
+A1.8-1	Case T1.8 Ins
+A1.8-2	Gender T1.8 Masc
+A1.8-3	Animacy T1.8 Inan
+A1.8-4	Number T1.8 Sing
+R1.8-1	obl_agent Arg1:T1.5 Arg2:T1.8
+#1.8	AnnotatorNotes T1.8	LEMMA=вечер POSTAG=_
+T1.9	PUNCT 55 56	,
+R1.9-1	punct Arg1:T1.8 Arg2:T1.9
+#1.9	AnnotatorNotes T1.9	LEMMA=, POSTAG=_
+T1.10	ADP 57 58	в
+R1.10-1	case Arg1:T1.11 Arg2:T1.10
+#1.10	AnnotatorNotes T1.10	LEMMA=в POSTAG=_
+T1.11	NOUN 59 69	результате
+A1.11-1	Case T1.11 Loc
+A1.11-2	Gender T1.11 Masc
+A1.11-3	Animacy T1.11 Inan
+A1.11-4	Number T1.11 Sing
+R1.11-1	obl Arg1:T1.14 Arg2:T1.11
+#1.11	AnnotatorNotes T1.11	LEMMA=результат POSTAG=_
+T1.12	ADJ 70 80	стихийного
+A1.12-1	Case T1.12 Gen
+A1.12-2	Gender T1.12 Neut
+A1.12-3	Number T1.12 Sing
+A1.12-4	Degree T1.12 Pos
+R1.12-1	amod Arg1:T1.13 Arg2:T1.12
+#1.12	AnnotatorNotes T1.12	LEMMA=стихийный POSTAG=_
+T1.13	NOUN 81 89	бедствия
+A1.13-1	Case T1.13 Gen
+A1.13-2	Gender T1.13 Neut
+A1.13-3	Animacy T1.13 Inan
+A1.13-4	Number T1.13 Sing
+R1.13-1	nmod Arg1:T1.11 Arg2:T1.13
+#1.13	AnnotatorNotes T1.13	LEMMA=бедствие POSTAG=_
+T1.14	VERB 90 97	погибли
+A1.14-1	VerbForm T1.14 Fin
+A1.14-2	Number T1.14 Plur
+A1.14-3	Tense T1.14 Past
+A1.14-4	Aspect T1.14 Perf
+A1.14-5	Voice T1.14 Act
+A1.14-6	Mood T1.14 Ind
+#1.14	AnnotatorNotes T1.14	LEMMA=погибать POSTAG=_
+T1.15	NUM 98 100	77
+R1.15-1	nummod Arg1:T1.17 Arg2:T1.15
+#1.15	AnnotatorNotes T1.15	LEMMA=77 POSTAG=_
+T1.16	NUM 101 104	738
+R1.16-1	nummod Arg1:T1.17 Arg2:T1.16
+#1.16	AnnotatorNotes T1.16	LEMMA=738 POSTAG=_
+T1.17	NOUN 105 112	человек
+A1.17-1	Case T1.17 Gen
+A1.17-2	Gender T1.17 Masc
+A1.17-3	Animacy T1.17 Anim
+A1.17-4	Number T1.17 Plur
+R1.17-1	nsubj Arg1:T1.14 Arg2:T1.17
+#1.17	AnnotatorNotes T1.17	LEMMA=человек POSTAG=_
+T1.18	PUNCT 113 114	,
+R1.18-1	punct Arg1:T1.17 Arg2:T1.18
+#1.18	AnnotatorNotes T1.18	LEMMA=, POSTAG=_
+T1.19	NUM 115 117	55
+R1.19-1	nsubj Arg1:T1.24 Arg2:T1.19
+#1.19	AnnotatorNotes T1.19	LEMMA=55 POSTAG=_
+T1.20	NUM 118 121	917
+R1.20-1	nummod Arg1:T1.19 Arg2:T1.20
+#1.20	AnnotatorNotes T1.20	LEMMA=917 POSTAG=_
+T1.21	ADP 122 124	до
+R1.21-1	advmod Arg1:T1.24 Arg2:T1.21
+#1.21	AnnotatorNotes T1.21	LEMMA=до POSTAG=_
+T1.22	DET 125 128	сих
+A1.22-1	Case T1.22 Gen
+A1.22-2	Number T1.22 Plur
+R1.22-1	fixed Arg1:T1.21 Arg2:T1.22
+#1.22	AnnotatorNotes T1.22	LEMMA=сей POSTAG=_
+T1.23	NOUN 129 132	пор
+A1.23-1	Case T1.23 Gen
+A1.23-2	Gender T1.23 Fem
+A1.23-3	Animacy T1.23 Inan
+A1.23-4	Number T1.23 Plur
+R1.23-1	fixed Arg1:T1.22 Arg2:T1.23
+#1.23	AnnotatorNotes T1.23	LEMMA=пора POSTAG=_
+T1.24	VERB 133 141	числятся
+A1.24-1	VerbForm T1.24 Fin
+A1.24-2	Number T1.24 Plur
+A1.24-3	Person T1.24 3
+A1.24-4	Tense T1.24 Pres
+A1.24-5	Aspect T1.24 Imp
+A1.24-6	Voice T1.24 Mid
+A1.24-7	Mood T1.24 Ind
+R1.24-1	conj Arg1:T1.14 Arg2:T1.24
+#1.24	AnnotatorNotes T1.24	LEMMA=числиться POSTAG=_
+T1.25	VERB 142 152	пропавшими
+A1.25-1	Case T1.25 Ins
+A1.25-2	VerbForm T1.25 Part
+A1.25-3	Number T1.25 Plur
+A1.25-4	Tense T1.25 Past
+A1.25-5	Aspect T1.25 Perf
+A1.25-6	Voice T1.25 Act
+R1.25-1	xcomp Arg1:T1.24 Arg2:T1.25
+#1.25	AnnotatorNotes T1.25	LEMMA=пропадать POSTAG=_
+T1.26	ADP 153 156	без
+R1.26-1	case Arg1:T1.27 Arg2:T1.26
+#1.26	AnnotatorNotes T1.26	LEMMA=без POSTAG=_
+T1.27	NOUN 157 162	вести
+A1.27-1	Case T1.27 Gen
+A1.27-2	Gender T1.27 Fem
+A1.27-3	Animacy T1.27 Inan
+A1.27-4	Number T1.27 Sing
+R1.27-1	obl Arg1:T1.25 Arg2:T1.27
+#1.27	AnnotatorNotes T1.27	LEMMA=весть POSTAG=_
+T1.28	PUNCT 163 164	,
+R1.28-1	punct Arg1:T1.27 Arg2:T1.28
+#1.28	AnnotatorNotes T1.28	LEMMA=, POSTAG=_
+T1.29	NUM 165 167	19
+R1.29-1	nummod Arg1:T1.31 Arg2:T1.29
+#1.29	AnnotatorNotes T1.29	LEMMA=19 POSTAG=_
+T1.30	NUM 168 171	359
+R1.30-1	nummod Arg1:T1.31 Arg2:T1.30
+#1.30	AnnotatorNotes T1.30	LEMMA=359 POSTAG=_
+T1.31	NOUN 172 179	жителей
+A1.31-1	Case T1.31 Gen
+A1.31-2	Gender T1.31 Masc
+A1.31-3	Animacy T1.31 Anim
+A1.31-4	Number T1.31 Plur
+R1.31-1	nsubj Arg1:T1.32 Arg2:T1.31
+#1.31	AnnotatorNotes T1.31	LEMMA=житель POSTAG=_
+T1.32	VERB 180 188	получили
+A1.32-1	VerbForm T1.32 Fin
+A1.32-2	Number T1.32 Plur
+A1.32-3	Tense T1.32 Past
+A1.32-4	Aspect T1.32 Perf
+A1.32-5	Voice T1.32 Act
+A1.32-6	Mood T1.32 Ind
+R1.32-1	conj Arg1:T1.25 Arg2:T1.32
+#1.32	AnnotatorNotes T1.32	LEMMA=получать POSTAG=_
+T1.33	NOUN 189 196	ранения
+A1.33-1	Case T1.33 Acc
+A1.33-2	Gender T1.33 Neut
+A1.33-3	Animacy T1.33 Inan
+A1.33-4	Number T1.33 Plur
+R1.33-1	obj Arg1:T1.32 Arg2:T1.33
+#1.33	AnnotatorNotes T1.33	LEMMA=ранение POSTAG=_
+T1.34	PUNCT 197 198	.
+R1.34-1	punct Arg1:T1.33 Arg2:T1.34
+#1.34	AnnotatorNotes T1.34	LEMMA=. POSTAG=_
+T1	Predicate 90 97	погибли
+#1	AnnotatorNotes T1	гибнуть.01
+T2	Predicate 133 141	числятся
+#2	AnnotatorNotes T2	числиться.01
+T3	Predicate 142 152	пропавшими
+#3	AnnotatorNotes T3	пропасть.01
+T4	Predicate 180 188	получили
+#4	AnnotatorNotes T4	получить.LV
+T5	Predicate 22 36	опубликованным
+T6	ARG0 105 112	человек
+T8	ARG1 115 117	55
+T9	ARG2 142 152	пропавшими
+T15	ARGM-PRD 157 162	вести
+T7	ARGM-CAU 81 89	бедствия
+R1	sem Arg1:T7 Arg2:T1	
+R2	sem Arg1:T6 Arg2:T1	
+R3	sem Arg1:T8 Arg2:T2	
+R4	sem Arg1:T9 Arg2:T2	
+R5	sem Arg1:T15 Arg2:T3	
+T10	ARGM-TMP 129 132	пор
+R6	sem Arg1:T10 Arg2:T2	
